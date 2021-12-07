@@ -1,0 +1,18 @@
+* {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff00;
+	border: none;
+	/* color: #000000ff; */
+}
+
+h2 {
+	display: inline;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+	outline: none;
+}
