@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './cardExperience.css';
 
 class CardExperience extends Component {
 	monthDate(date) {
@@ -17,8 +18,8 @@ class CardExperience extends Component {
 			this.props.experience
 		);
 		return (
-			<div class="cardMain">
-				<div class="flip front-card face height100">
+			<div class="cardExperience">
+				<div class="flip card-front face height100">
 					<div class="experience row height100">
 						<div class="width100 empty height5"></div>
 
@@ -83,7 +84,7 @@ class CardExperience extends Component {
 					</div>
 				</div>
 
-				<div class="flip back-card face">
+				<div class="flip card-back face">
 					<div class="row height100">
 						<div class="width100 function height10">
 							<h5>{this.props.experience.jobTitle.short}</h5>

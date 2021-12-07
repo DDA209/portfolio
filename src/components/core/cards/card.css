@@ -1,8 +1,7 @@
 .cardMain {
-	background-color: chartreuse;
-	height: 20rem;
-	width: 20rem;
-	border: solid #000000ff;
+	background-color: #ffffffff;
 	border-radius: 0.7rem;
 	box-shadow: 0.1rem 0.1rem 0.5rem #00000020;
+	height: 1px;
+	width: 1px;
 }

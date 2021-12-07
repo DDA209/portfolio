@@ -17,7 +17,7 @@ class CardExperience extends Component {
 			this.props.experience
 		);
 		return (
-			<div class="cardMain">
+			<div class="cardExperience">
 				<div class="flip front-card face height100">
 					<div class="experience row height100">
 						<div class="width100 empty height5"></div>
