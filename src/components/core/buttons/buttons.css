@@ -1,0 +1,39 @@
+button {
+	height: 5rem;
+	width: 20rem;
+	min-height: 2rem;
+	min-width: 15rem;
+	border: 0;
+	border-radius: 0.8rem;
+	background-color: #c0f0ffff;
+	box-shadow: 0.25rem 0.25rem 0.25rem #00000040,
+		-0.25rem -0.25rem 0.25rem #ffffff80,
+		inset -0.25rem -0.25rem 0.25rem #00000040,
+		inset 0.25rem 0.25rem 0.25rem #ffffff80;
+	margin: 1rem;
+}
+button:hover {
+	box-shadow: 0.15rem 0.15rem 0.15rem #00000040,
+		-0.15rem -0.15rem 0.15rem #ffffff80,
+		inset -0.15rem -0.15rem 0.15rem #00000040,
+		inset 0.15rem 0.15rem 0.15rem #ffffff80;
+
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	animation-name: vibration;
+}
+
+@keyframes vibration {
+	from {
+		margin-left: -2rem 1rem 1rem 1rem;
+	}
+	/* 33% {
+		margin-left: 1rem 2rem 1rem 1rem;
+	}
+	66% {
+		margin-left: 1rem 1rem 2rem 1rem;
+	} */
+	to {
+		margin-left: 1rem 1rem 1rem -2rem;
+	}
+}

@@ -1,0 +1,22 @@
+header,
+.background {
+	height: 50rem;
+	width: 100vw;
+	min-height: 20vh;
+	max-height: 50vh;
+}
+
+header {
+	background-color: #00000040;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.background {
+	position: fixed;
+	background: url('work.jfif');
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: -1;
+}

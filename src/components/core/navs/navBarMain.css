@@ -1,0 +1,31 @@
+nav.main,
+.ghost {
+	height: 4rem;
+	width: 100%;
+}
+
+nav.main {
+	position: fixed;
+	background-color: #ffffffd0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* height: 4rem;
+	width: 100%; */
+	z-index: 200;
+	box-shadow: 0 0.7rem 0.7rem #00000080;
+	backdrop-filter: blur(10px);
+}
+
+nav.main:before {
+	filter: blur(10px);
+}
+
+ul {
+	margin-right: 1rem;
+}
+
+nav.main,
+a {
+	color: #102060ff;
+}
