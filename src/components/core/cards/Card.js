@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import CardExperience from './CardExperience';
-import './card.css';
+import './cards.css';
 
 class Card extends Component {
 	render() {
 		return (
-			<div class="cardMain">
+			<div className="card-main">
 				<CardExperience experience={this.props.experience} />
 			</div>
 		);

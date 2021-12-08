@@ -1,0 +1,26 @@
+img#picture-pofile {
+	border-radius: 50%;
+	height: 20rem;
+	width: 20rem;
+	max-height: 80vw;
+	max-width: 80vw;
+	min-height: 15vh;
+	min-width: 15vh;
+	margin: auto auto -5rem auto;
+	z-index: 10;
+	box-shadow: 0 0 0.5rem 0.5rem #00000040;
+}
+
+img.logo-compagny {
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+	object-position: 50% 50%;
+	/* margin-left: auto !important;
+	margin-right: auto !important;
+	display: block !important;
+	max-width: 100%;
+	vertical-align: middle;
+	border-style: none;
+	box-sizing: border-box; */
+}

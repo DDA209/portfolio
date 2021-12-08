@@ -1,14 +1,51 @@
+@font-face {
+	font-family: 'confortaa';
+	src: url('../fonts/Comfortaa-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'confortaa bold';
+	src: url('../fonts/Comfortaa-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'confortaa light';
+	src: url('../fonts/Comfortaa-Light.ttf') format('truetype');
+}
+
 * {
 	text-decoration: none;
 	margin: 0;
 	padding: 0;
 	background-color: #ffffff00;
 	border: none;
+	font-family: confortaa, arial, sans-serif;
 	/* color: #000000ff; */
 }
 
-h2 {
+h1,
+h2,
+h3,
+h4,
+h5 {
 	display: inline;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+h2 {
+	font-size: 2rem;
+}
+h3 {
+	font-size: 1.75rem;
+}
+h4 {
+	font-size: 1.5rem;
+}
+h5 {
+	font-size: 1.25rem;
+}
+h6 {
+	font-size: 1rem;
 }
 
 input:focus,
