@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import ButtonSimple from '../buttons/ButtonSimple';
-import './forms.css';
+import './css/forms.css';
 import { Formik, Form, Field } from 'formik';
 
 class FormExperience extends Component {

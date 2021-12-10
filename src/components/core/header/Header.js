@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import ProfilePicture from '../images/ProfilePicture';
-import './header.css';
+import './css/header.css';
 
 class Header extends Component {
 	render() {

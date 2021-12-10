@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import './cardExperience.css';
-
-const util = require('util');
+import { Component } from 'react';
+import './css/cardExperience.css';
+// const util = require('util');
+import ButtonAction from '../buttons/ButtonAction';
 
 class CardExperience extends Component {
 	month(date) {
@@ -32,39 +32,63 @@ class CardExperience extends Component {
 	}
 
 	render() {
-		const date = new Date(this.props.experience.dateStart).toDateString();
-		console.log(
-			'components/cards/CardExperience.js #render this.props.experience >>>',
-			this.props.experience
-		);
-		console.log(
-			'components/cards/CardExperience.js #render new Date(this.props.experience.dateStart) >>>',
-			util.inspect(date, false, Infinity, true),
-			'\n',
-			date.split(' ')[3]
-		);
 		return (
-			<div className="card-experience">
+			<div className="card-experience width-12 height-20">
+				{/******************/}
+				{/**  Card front  **/}
+				{/******************/}
 				<div className="card-front width-12 height-20">
-					<div className="width-12 height-1">{/*empty*/}</div>
+					<div className="width-12 height-1">
+						{true ? (
+							<>
+								<ButtonAction
+									type="action"
+									role="edit"
+									className="left"
+								/>
+								<ButtonAction
+									type="action"
+									role="delete"
+									className="right"
+								/>
+							</>
+						) : (
+							{
+								/*empty*/
+							}
+						)}
+					</div>
+					{/**  Job title  **/}
 					<div className="width-12 height-4">
 						<h2>{this.props.experience.jobTitle.full}</h2>
+						<hr />
 					</div>
+					{/**  date from  **/}
 					<div className="width-6 height-2">
-						<p>De {this.month(this.props.experience.dateStart)}</p>
-						<p>{this.year(this.props.experience.dateStart)}</p>
+						<p className="text-left">
+							De {this.month(this.props.experience.dateStart)}
+						</p>
+						<p className="text-left">
+							{this.year(this.props.experience.dateStart)}
+						</p>
 					</div>
+					{/**  date to  **/}
 					<div className="width-6 height-2">
-						<p>À {this.month(this.props.experience.dateEnd)}</p>
-						<p>{this.year(this.props.experience.dateEnd)}</p>
-					</div>
+						<p className="text-right">
+							À {this.month(this.props.experience.dateEnd)}
+						</p>
+						<p className="text-right">
+							{this.year(this.props.experience.dateEnd)}
+						</p>
+					</div>{' '}
 					{this.props.experience.clients.length === 1 ? (
 						<>
+							{/**  Company and client  **/}
 							<div className="width-12 height-3">
 								<h3>{this.props.experience.company.name}</h3>
 							</div>
 							<div className="width-2 height-3">{/*empty*/}</div>
-							<div className="width-8 height-3 container-up">
+							<div className="width-8 height-3 container-up logo">
 								<img
 									className="logo-compagny"
 									src={this.props.experience.company.logo}
@@ -80,7 +104,7 @@ class CardExperience extends Component {
 								<h3>{this.props.experience.clients[0].name}</h3>
 							</div>
 							<div className="width-2 height-3">{/*empty*/}</div>
-							<div className="width-8 height-3 container-up">
+							<div className="width-8 height-3 container-up logo">
 								<img
 									className="logo-compagny"
 									src={this.props.experience.clients[0].logo}
@@ -94,11 +118,12 @@ class CardExperience extends Component {
 						</>
 					) : (
 						<>
+							{/**  Company only  **/}
 							<div className="width-12 height-4">
-								{this.props.experience.company.name}
+								<h3>{this.props.experience.company.name}</h3>
 							</div>
 							<div className="width-2 height-8">{/*empty*/}</div>
-							<div className="width-8 height-8 container-up">
+							<div className="width-8 height-8 container-up logo">
 								<img
 									className="logo-compagny"
 									src={this.props.experience.company.logo}
@@ -113,59 +138,80 @@ class CardExperience extends Component {
 					)}
 					<div className="width-12 height-1">{/*empty*/}</div>
 				</div>
+				{/*****************/}
+				{/**  Card back  **/}
+				{/*****************/}
 				<div className="card-back width-12 height-20">
+					{/**  Job title  **/}
 					<div className="width-12 height-2">
-						{this.props.experience.jobTitle.short}
+						<h5>{this.props.experience.jobTitle.short}</h5>
 					</div>
-					<div className="width-5 height-2">
-						<p>
+					{/**  date from  **/}
+					<div className="width-4_5 height-2 ">
+						<p className="text-left">
 							{this.month(this.props.experience.dateStart)}{' '}
 							{this.year(this.props.experience.dateStart)}
 						</p>
 					</div>
-					<div className="width-2 height-2">{/*empty*/}</div>
-					<div className="width-5 height-2">
-						<p>
+					<div className="width-3 height-2">
+						<hr />
+					</div>
+					{/**  date to  **/}
+					<div className="width-4_5 height-2 ">
+						<p className="text-right">
 							{this.month(this.props.experience.dateEnd)}{' '}
 							{this.year(this.props.experience.dateEnd)}
 						</p>
 					</div>
-					<div className="width-12 height-13 container-down">
-						<div className="width-12">
-							<h6>
-								Mission
-								{this.props.experience.achievements.length >
-									1 && 's'}
-							</h6>
-							{this.props.experience.achievements.map(
-								(achievement, index) => {
-									return <p key={index}>{achievement}</p>;
-								}
-							)}
-						</div>
-						<div className="width-12">
-							<h6>Environnement technique</h6>
-							<ul>
-								{this.props.experience.skills.hardSkills.map(
-									(skillGroup) => {
-										return skillGroup.skills.map(
-											(skill, index) => {
-												return (
-													<li key={index}>{skill}</li>
+					{/**  description and skills  **/}
+					<div className="width-12 height-13">
+						<div className="container-down  articles">
+							<div className="width-12">
+								<article>
+									<h6>
+										Mission
+										{this.props.experience.descriptions.full
+											.length > 1 && 's'}
+									</h6>
+									{this.props.experience.descriptions.full.map(
+										(achievement, index) => {
+											return (
+												<p key={index}>{achievement}</p>
+											);
+										}
+									)}
+								</article>
+							</div>
+							<div className="width-12">
+								<article>
+									<h6>Environnement technique</h6>
+									<ul>
+										{this.props.experience.skills.hardSkills.map(
+											(skillGroup) => {
+												return skillGroup.skills.map(
+													(skill, index) => {
+														return (
+															<li key={index}>
+																{skill}
+															</li>
+														);
+													}
 												);
 											}
-										);
-									}
-								)}
-							</ul>
+										)}
+									</ul>
+								</article>
+							</div>
 						</div>
 					</div>
+
 					{this.props.experience.clients.length === 1 ? (
 						<>
-							<div className="width-8 height-1">
-								<h5>{this.props.experience.company.name}</h5>
+							{/**  Company and client  **/}
+							<div className="width-9 height-1">
+								<h6>{this.props.experience.company.name}</h6>
 							</div>
-							<div className="width-4 height-1 container-up">
+							<div className="width-3 height-1 logo">
 								<img
 									className="logo-compagny"
 									src={this.props.experience.company.logo}
@@ -175,11 +221,11 @@ class CardExperience extends Component {
 									}
 								/>
 							</div>
-							<div className="width-8 height-1">
+							<div className="width-9 height-1">
 								<span>Client : </span>
-								<h5>{this.props.experience.clients[0].name}</h5>
+								<h6>{this.props.experience.clients[0].name}</h6>
 							</div>
-							<div className="width-4 height-1 container-up">
+							<div className="width-3 height-1 logo">
 								<img
 									className="logo-compagny"
 									src={this.props.experience.clients[0].logo}
@@ -192,11 +238,11 @@ class CardExperience extends Component {
 						</>
 					) : (
 						<>
-							<div className="width-8 height-2">
-								<span></span>
-								<h5>{this.props.experience.company.name}</h5>
+							{/**  Company only  **/}
+							<div className="width-9 height-2 company-name">
+								<h6>{this.props.experience.company.name}</h6>
 							</div>
-							<div className="width-4 height-2 container-up">
+							<div className="width-3 height-2 logo">
 								<img
 									className="logo-compagny"
 									src={this.props.experience.company.logo}
@@ -208,15 +254,20 @@ class CardExperience extends Component {
 							</div>
 						</>
 					)}
-					{this.props.experience.clients.length === 1 ? (
-						<div className="width-12 height-1">
-							{this.props.experience.clients[0].activityArea}
-						</div>
-					) : (
-						<div className="width-12 height-1">
-							{this.props.experience.company.activityArea}
-						</div>
-					)}
+					{/**  Activity area  **/}
+
+					<div className="width-12 height-1">
+						<span>Secteur d'activité : </span>
+						{this.props.experience.clients.length === 1 ? (
+							<h6>
+								{this.props.experience.clients[0].activityArea}
+							</h6>
+						) : (
+							<h6>
+								{this.props.experience.company.activityArea}
+							</h6>
+						)}
+					</div>
 				</div>
 			</div>
 		);

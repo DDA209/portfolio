@@ -15,7 +15,7 @@ header {
 
 .background {
 	position: fixed;
-	background: url('work.jfif');
+	background: url('../work.jfif');
 	background-size: cover;
 	background-repeat: no-repeat;
 	z-index: -1;

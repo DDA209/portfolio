@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './navBar.css';
-import './navBarMain.css';
+import './css/navBar.css';
+import './css/navBarMain.css';
 
 class NavBarMain extends Component {
 	render() {

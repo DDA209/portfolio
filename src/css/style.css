@@ -11,38 +11,51 @@
 	src: url('../fonts/Comfortaa-Light.ttf') format('truetype');
 }
 
+@font-face {
+	font-family: 'nunito';
+	src: url('../fonts/Nunito-VariableFont_wght.ttf') format('truetype');
+}
+
 * {
 	text-decoration: none;
 	margin: 0;
 	padding: 0;
 	background-color: #ffffff00;
 	border: none;
-	font-family: confortaa, arial, sans-serif;
-	/* color: #000000ff; */
+	font-family: nunito, arial, sans-serif;
+	font-size: 0.9rem;
 }
 
 h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
+	display: inline;
+}
+
+ul > li,
+.inline {
+	list-style: none;
+	content: none;
 	display: inline;
 }
 
 h1 {
-	font-size: 2.5rem;
-}
-h2 {
 	font-size: 2rem;
 }
-h3 {
+h2 {
 	font-size: 1.75rem;
 }
+h3 {
+	font-size: 1.55rem;
+}
 h4 {
-	font-size: 1.5rem;
+	font-size: 1.35rem;
 }
 h5 {
-	font-size: 1.25rem;
+	font-size: 1.2rem;
 }
 h6 {
 	font-size: 1rem;
@@ -52,4 +65,105 @@ input:focus,
 textarea:focus,
 select:focus {
 	outline: none;
+}
+
+.text-left {
+	text-align: left !important;
+}
+
+.text-right {
+	text-align: right !important;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.left {
+	left: 0 !important;
+}
+
+.right {
+	right: 0 !important;
+}
+
+hr {
+	border: solid 0.01rem #bfbfbfff;
+	margin-top: 1.05rem;
+}
+/* Temporary grid*/
+.height-auto {
+	height: auto;
+}
+.height-1 {
+	height: 5%;
+}
+.height-2 {
+	height: 10%;
+}
+.height-3 {
+	height: 15%;
+}
+.height-4 {
+	height: 20%;
+}
+.height-8 {
+	height: 40%;
+}
+.height-12 {
+	height: 60%;
+}
+.height-13 {
+	height: 65%;
+}
+.height-19 {
+	height: 95%;
+}
+.height-20 {
+	height: 100%;
+}
+
+.width-auto,
+.width-2,
+.width-3,
+.width-4,
+.width-4_5,
+.width-5,
+.width-6,
+.width-8,
+.width-9,
+.width-12 {
+	padding-left: 0.35rem;
+	padding-right: 0.35rem;
+}
+
+.width-auto {
+	width: auto;
+}
+.width-2 {
+	width: calc((100% / 12 * 2) - (2 * 0.35rem));
+}
+.width-3 {
+	width: calc(25% - (2 * 0.35rem));
+}
+.width-4 {
+	width: calc((100% / 12 * 4) - (2 * 0.35rem));
+}
+.width-4_5 {
+	width: calc((100% / 12 * 4.5) - (2 * 0.35rem));
+}
+.width-5 {
+	width: calc((100% / 12 * 5) - (2 * 0.35rem));
+}
+.width-6 {
+	width: calc(50% - (2 * 0.35rem));
+}
+.width-8 {
+	width: calc((100% / 12 * 8) - (2 * 0.35rem));
+}
+.width-9 {
+	width: calc(75% - (2 * 0.35rem));
+}
+.width-12 {
+	width: calc(100% - (2 * 0.35rem));
 }

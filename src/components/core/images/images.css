@@ -11,16 +11,12 @@ img#picture-pofile {
 	box-shadow: 0 0 0.5rem 0.5rem #00000040;
 }
 
-img.logo-compagny {
-	height: 100%;
-	width: 100%;
+img.logo-compagny,
+img.icon {
 	object-fit: contain;
-	object-position: 50% 50%;
-	/* margin-left: auto !important;
-	margin-right: auto !important;
-	display: block !important;
-	max-width: 100%;
-	vertical-align: middle;
-	border-style: none;
-	box-sizing: border-box; */
+}
+
+img.logo-compagny {
+	max-height: 95%;
+	max-width: 95%;
 }

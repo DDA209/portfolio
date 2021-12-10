@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import './experiences.css';
 import Card from '../../components/core/cards/Card';
 import FormExperience from '../../components/core/forms/FormExperience';
@@ -38,11 +38,11 @@ class Experiences extends Component {
 				// 	activityArea: 'activité',
 				// 	logo: '/images/companies/logo-itce.jpg',
 				// },
-				{
-					name: '',
-					activityArea: '',
-					logo: '',
-				},
+				// {
+				// 	name: '',
+				// 	activityArea: '',
+				// 	logo: '',
+				// },
 			],
 			descriptions: {
 				full: [
@@ -66,15 +66,15 @@ class Experiences extends Component {
 							'Express.JS',
 							'React',
 							'Node.JS',
+							'Pyton',
 							'Django',
 							'MySQL',
 							'Bootstrap',
-							'GitLab',
 						],
 					},
 					{
 						groupName: 'tools',
-						skills: ['GitLab'],
+						skills: ['GitLab', ''],
 					},
 				],
 				softSkills: [

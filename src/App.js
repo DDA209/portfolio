@@ -5,7 +5,7 @@ import './components/core/images/images.css';
 // import FormExperience from './core/components/forms/FormExperience';
 import Header from './components/core/header/Header';
 import NavBarMain from './components/core/navs/NavBarMain';
-import Experiences from './views/experiences/Experiences';
+import ExperiencesView from './views/experiences/Experiences.view';
 
 class App extends Component {
 	render() {
@@ -13,7 +13,7 @@ class App extends Component {
 			<>
 				<NavBarMain />
 				<Header />
-				<Experiences />
+				<ExperiencesView />
 			</>
 		);
 	}
