@@ -2,6 +2,7 @@ import { Component } from 'react';
 import './css/cardExperience.css';
 // const util = require('util');
 import ButtonAction from '../buttons/ButtonAction';
+import Badge from '../badges/Badge';
 
 class CardExperience extends Component {
 	month(date) {
@@ -183,7 +184,7 @@ class CardExperience extends Component {
 								</article>
 							</div>
 							<div className="width-12">
-								<article>
+								<article className="skills">
 									<h6>Environnement technique</h6>
 									<ul>
 										{this.props.experience.skills.hardSkills.map(
@@ -192,7 +193,9 @@ class CardExperience extends Component {
 													(skill, index) => {
 														return (
 															<li key={index}>
-																{skill}
+																<Badge type="skillTechnic">
+																	{skill}
+																</Badge>
 															</li>
 														);
 													}

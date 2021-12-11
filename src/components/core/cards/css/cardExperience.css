@@ -23,10 +23,10 @@
 	margin-right: -0.35rem;
 }
 
-.card-back ul > li:before {
-	/* list-style: circle; */
+/* .card-back ul > li:before {
+	/* list-style: circle; * /
 	content: ' ￮ ';
-}
+} */
 
 .li:first-child {
 	list-style: none;
@@ -77,12 +77,22 @@
 	margin: 0.35rem 0;
 }
 
+.articles {
+	max-height: 92%;
+	overflow: auto;
+}
+
 article ul,
 article P,
 article {
 	text-align: justify;
 }
 
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: column wrap;
+}
 /**************************/
 /**  Internal structure  **/
 /**************************/

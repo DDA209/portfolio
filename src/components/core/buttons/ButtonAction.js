@@ -5,8 +5,8 @@ import { faTrash, faPen } from '@fortawesome/free-solid-svg-icons';
 import Icon from '../images/Icons';
 
 const Button = styled.button`
-	background-color: ${(props) => props.backgroundColor || '#b0b0b0ff'} !important;
-	color: ${(props) => props.contentColor || '#b0b0b0ff'} !important;
+	background-color: ${(props) => props.colorBackground || '#b0b0b0ff'} !important;
+	color: ${(props) => props.colorContent || '#b0b0b0ff'} !important;
 	font-size: 1rem !important;
 	height: 1.8rem !important;
 	width: ${(props) => props.size || '2.5rem'} !important;
@@ -31,16 +31,16 @@ class ButtonSimple extends Component {
 			edit: {
 				// text: 'modifier',
 				icon: 'pencil',
-				backgroundColor: '#90b8ffff',
-				contentColor: '#000000ff',
+				colorBackground: '#90b8ffff',
+				colorContent: '#000000ff',
 				position: 'left',
 				size: 'normal',
 			},
 			delete: {
 				// text: 'supprimer',
 				icon: 'trash',
-				backgroundColor: '#ff5040ff',
-				contentColor: '#ffffffff',
+				colorBackground: '#ff5040ff',
+				colorContent: '#ffffffff',
 				position: 'right',
 				size: 'stretch',
 			},
@@ -56,8 +56,8 @@ class ButtonSimple extends Component {
 		return (
 			<Button
 				as="button"
-				backgroundColor={roles[role].backgroundColor}
-				contentColor={roles[role].contentColor}
+				colorBackground={roles[role].colorBackground}
+				colorContent={roles[role].colorContent}
 				size={sizes[roles[role].size]}
 				className={roles[role].position}
 			>

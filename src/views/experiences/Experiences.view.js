@@ -74,7 +74,7 @@ class Experiences extends Component {
 					},
 					{
 						groupName: 'tools',
-						skills: ['GitLab', ''],
+						skills: ['GitLab'],
 					},
 				],
 				softSkills: [
@@ -88,7 +88,7 @@ class Experiences extends Component {
 						],
 					},
 				],
-				madSkills: [{ groupName: 'joy', skills: ['fédérateur', ''] }],
+				madSkills: [{ groupName: 'joy', skills: ['fédérateur'] }],
 			},
 		};
 		// this.experiencesAdd = this.experiencesAdd.bind(this);
