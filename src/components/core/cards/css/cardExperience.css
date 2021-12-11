@@ -23,11 +23,6 @@
 	margin-right: -0.35rem;
 }
 
-/* .card-back ul > li:before {
-	/* list-style: circle; * /
-	content: ' ￮ ';
-} */
-
 .li:first-child {
 	list-style: none;
 	content: '' !important;
