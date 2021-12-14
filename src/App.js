@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import './css/style.css';
-import './components/core/images/images.css';
+import './components/core/images/css/images.css';
 // import CardExperience from './core/components/cards/CardExperience';
 // import FormExperience from './core/components/forms/FormExperience';
 import Header from './components/core/header/Header';

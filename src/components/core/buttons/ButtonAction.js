@@ -1,30 +1,23 @@
 import { Component } from 'react';
 import styled from 'styled-components';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTrash, faPen } from '@fortawesome/free-solid-svg-icons';
-import Icon from '../images/Icons';
 
 const Button = styled.button`
-	background-color: ${(props) => props.colorBackground || '#b0b0b0ff'} !important;
+	background-color: ${(props) =>
+		props.colorBackground || '#b0b0b0ff'} !important;
 	color: ${(props) => props.colorContent || '#b0b0b0ff'} !important;
 	font-size: 1rem !important;
-	height: 1.8rem !important;
+	height: 1rem !important;
+	max-height: 1rem !important;
 	width: ${(props) => props.size || '2.5rem'} !important;
-	min-height: 1.8rem !important;
-	min-width: ${(props) => props.size || '2.5rem'} !important;
+	max-width: 2.5rem !important;
 	margin: 0 0.175em !important;
 	padding: 0.1em 0.5em !important;
 	border-radius: 0.35rem !important;
 	text-align: center !important;
 	box-shadow: none !important;
-    content-align center
+	content-align: center;
+	vertical-align: middle;
 `;
-
-// const Button = styled(DefaultButton)`
-// 	color: tomato;
-// 	border-color: tomato;
-// `;
-
 class ButtonSimple extends Component {
 	renderButton(role) {
 		const roles = {
@@ -34,7 +27,7 @@ class ButtonSimple extends Component {
 				colorBackground: '#90b8ffff',
 				colorContent: '#000000ff',
 				position: 'left',
-				size: 'normal',
+				size: 'stretch',
 			},
 			delete: {
 				// text: 'supprimer',
@@ -61,10 +54,7 @@ class ButtonSimple extends Component {
 				size={sizes[roles[role].size]}
 				className={roles[role].position}
 			>
-				<Icon />
-				{roles[role].icon && <Icon icon={roles[role].icon} />}
-				{/* {(roles[role].icon] && roles[role]text) && ' - '} */}
-				{true && roles[role].text}
+				{this.children}
 			</Button>
 		);
 	}

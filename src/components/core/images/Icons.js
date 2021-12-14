@@ -1,34 +1,25 @@
 import React, { Component } from 'react';
+import styled from 'styled-components';
 
-// import trashIcon from '/images/icons/trash.svg';
-// import penLineIcon from '/images/icons/pen-line.svg';
-const iconStyle = {
-	height: '1rem',
-	width: '1rem',
-};
+const Icon = styled.img`
+	heigth: 1rem;
+	width: 1rem;
+`;
 
 const icons = {
-	// trash: <FontAwesomeIcon icon={faTrash} />,
-	// pencil: <FontAwesomeIcon icon={faPen} />,
-	trash: (
-		<img
-			src="/images/icons/trash.svg"
-			alt="Icone de poubelle"
-			style={iconStyle}
-		/>
-	),
-	pencil: (
-		<img
-			src="/images/icons/pen-line.svg"
-			alt="Icone de stylo qui écrit"
-			style={iconStyle}
-		/>
-	),
+	trash: {
+		src: '/images/icons/trash.svg',
+		alt: 'Icone de poubelle',
+	},
+	pencil: {
+		src: '/images/icons/pen-line.svg',
+		alt: 'Icone de stylo qui écrit',
+	},
 };
-class Icon extends Component {
+class IconMini extends Component {
 	render() {
-		return <>{icons[this.props.icon]}</>;
+		return <Icon>{icons[this.props.icon]}</Icon>;
 	}
 }
 
-export default Icon;
+export default IconMini;

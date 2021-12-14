@@ -46,10 +46,10 @@ class Experiences extends Component {
 			],
 			descriptions: {
 				full: [
-					"Création d'une application en totale autonomie.",
-					"Maquetter de l'application, designer et créer la base de donnée, développer de l'API REST et du backend. Développer le front end de l'application.",
-					'Être force de proposition dans différent.',
-					'Recruter et accompagner des nouveaux développeurs.',
+					"Création d'une application en totale autonomie",
+					"Maquetter l'application, modéliser / designer la base de données et la développer, développer l'API REST, le back-end et le front-end de l'application.",
+					// 'Être force de proposition dans différents domaines.',
+					// 'Recruter et accompagner de nouveaux développeurs.',
 				],
 				short: "Développement d'une application from scratch",
 			},
@@ -62,19 +62,23 @@ class Experiences extends Component {
 							'HTML',
 							'CSS',
 							'JavaScript',
-							'MongoDB',
-							'Express.JS',
-							'React',
-							'Node.JS',
-							'Pyton',
-							'Django',
-							'MySQL',
-							'Bootstrap',
+							// 'MongoDB',
+							// 'Express.JS',
+							// 'React',
+							// 'Node.JS',
+							// 'Pyton',
+							// 'Django',
+							// 'MySQL',
+							// 'Bootstrap',
 						],
 					},
 					{
 						groupName: 'tools',
-						skills: ['GitLab'],
+						skills: ['GitLab', 'Free Mind', 'Draw IO', 'Miro'],
+					},
+					{
+						groupName: 'communication',
+						skills: ['Slack'],
 					},
 				],
 				softSkills: [
@@ -98,7 +102,11 @@ class Experiences extends Component {
 			<div className="experiences">
 				<h2>Add an experience</h2>
 				<FormExperience experience={this.state} />
-				<Card experience={this.state}>experience</Card>
+				<Card
+					context="consultation"
+					type="experience"
+					datas={this.state}
+				/>
 			</div>
 		);
 	}
