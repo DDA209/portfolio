@@ -14,6 +14,7 @@ nav.main {
 	width: 100%; */
 	z-index: 200;
 	box-shadow: 0 0.6rem 0.6rem #00000060;
+	transition: transform 500ms ease-out, box-shadow 2s;
 	backdrop-filter: blur(10px);
 }
 
@@ -28,4 +29,10 @@ ul {
 nav.main,
 a {
 	color: #102060ff;
+}
+
+nav.hide {
+	/* top: -4rem; */
+	box-shadow: unset;
+	transform: translateY(-4rem);
 }

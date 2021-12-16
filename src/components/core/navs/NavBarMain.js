@@ -28,7 +28,7 @@ class NavBarMain extends Component {
 			) {
 				console.log('sccroll > 100', scrollYValue > 100);
 				this.setState({
-					navModify: ' nav-modify',
+					navModify: ' hide',
 				});
 			} else {
 				// if (scrollYValue === 0) {
