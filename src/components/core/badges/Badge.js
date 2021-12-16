@@ -13,7 +13,7 @@ const Badge = styled.div`
 	border-radius: 0.6rem !important;
 	padding: 0rem 0.5rem 0.15rem 0.5rem !important;
 	font-weight: 600 !important;
-	margin: 0.1rem 0.3rem !important;
+	margin: 0.05rem 0.5rem 0.15rem 0rem !important;
 	display: inline-block !important;
 `;
 /**

@@ -43,11 +43,11 @@
 }
 
 .card-experience .container-up {
-	box-shadow: 0 0 0 0.02rem #000000bf;
+	box-shadow: 0 0 0 0.03rem #000000bf;
 }
 
 .card-experience .container-down {
-	box-shadow: 0 0 0 0.02rem #000000bf;
+	box-shadow: 0 0 0 0.03rem #000000bf;
 }
 
 .card-experience p,
@@ -70,12 +70,8 @@
 .articles {
 	padding: 0.35rem 0.7rem;
 	margin: 0.35rem 0;
-}
-
-.articles {
+	text-align: left;
 	max-height: 90%;
-	overflow-y: auto;
-	overflow-x: hidden;
 }
 
 article ul,
@@ -96,8 +92,8 @@ article {
 .skills {
 	display: flex;
 	flex-wrap: wrap;
-	flex-flow: column wrap;
-	justify-content: space-around;
+	/* flex-flow: column wrap; */
+	/* justify-content: space-between; */
 }
 /***************************/
 /**  Appearance mechanic  **/

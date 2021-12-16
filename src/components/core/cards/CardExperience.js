@@ -157,12 +157,12 @@ class CardExperience extends Component {
 					<div className="width-12 height-13">
 						<div className="container-down  articles">
 							<div className="width-12">
+								<h6>
+									Mission
+									{this.props.datas.descriptions.full.length >
+										1 && 's'}
+								</h6>
 								<article>
-									<h6>
-										Mission
-										{this.props.datas.descriptions.full
-											.length > 1 && 's'}
-									</h6>
 									{this.props.datas.descriptions.full.map(
 										(achievement, index) => {
 											return (
@@ -177,32 +177,29 @@ class CardExperience extends Component {
 								''
 							) : (
 								<div className="width-12">
+									<h6>Environnement technique</h6>
 									<article className="skills">
-										<h6>Environnement technique</h6>
-										<ul>
-											{this.props.context === 'form' && (
-												<li>
-													<Badge type="action">
-														+
-													</Badge>
-												</li>
-											)}
-											{this.props.datas.skills.hardSkills.map(
-												(skillGroup) => {
-													return skillGroup.skills.map(
-														(skill, index) => {
-															return (
-																<li key={index}>
-																	<Badge type="skillTechnic">
-																		{skill}
-																	</Badge>
-																</li>
-															);
-														}
-													);
-												}
-											)}
-										</ul>
+										{this.props.context === 'form' && (
+											<Badge type="action">+</Badge>
+										)}
+										{this.props.datas.skills.hardSkills.map(
+											(skillGroup) => {
+												return skillGroup.skills.map(
+													(skill, index) => {
+														return (
+															<>
+																<Badge
+																	key={index}
+																	type="skillTechnic"
+																>
+																	{skill}
+																</Badge>
+															</>
+														);
+													}
+												);
+											}
+										)}
 									</article>
 								</div>
 							)}
