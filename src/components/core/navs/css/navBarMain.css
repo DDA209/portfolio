@@ -10,8 +10,7 @@ nav.main {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	/* height: 4rem;
-	width: 100%; */
+	width: 100 vw;
 	z-index: 200;
 	box-shadow: 0 0.6rem 0.6rem #00000060;
 	transition: transform 500ms ease-out, box-shadow 2s;

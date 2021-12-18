@@ -1,34 +1,47 @@
-body,
+body {
+	overflow: hidden;
+}
+
+main,
 .articles {
 	overflow-y: auto;
 	overflow-x: hidden;
 }
 
-body::-webkit-scrollbar-track {
+main {
+	height: 100vh;
+}
+
+main::-webkit-scrollbar-track-piece {
+	height: calc(5rem);
+}
+
+main::-webkit-scrollbar-track {
 	background-color: #c0f0ffff;
-	/* border-right: solid 0.35rem #ffffffff; */
-	/* box-shadow: 0.2rem 0 0.2rem #00000040 inset; */
 }
 
-body:hover::-webkit-scrollbar {
-	width: 0.5rem;
-}
-
-body:hover::-webkit-scrollbar-thumb {
-	border: 0.2rem solid #c0f0ffff;
-}
-
-body::-webkit-scrollbar {
+main::-webkit-scrollbar {
 	width: 0.9rem;
 }
 
-body::-webkit-scrollbar-thumb {
-	border-radius: 1rem;
-	border: 0.2rem solid #c0f0ffff;
-	background-color: #50808fff;
+main::-webkit-scrollbar-thumb,
+.articles::-webkit-scrollbar-thumb {
+	background-color: #50808fd0;
+}
 
-	/* box-shadow: -0.2rem -0.2rem 0.2rem #00000020 inset,
-		0.2rem 0.2rem 0.2rem #ffffff40 inset, 0.2rem 0.2rem 0.2rem #ffffff40; */
+main::-webkit-scrollbar-thumb {
+	border-radius: 1rem;
+	border: 0.325rem solid #c0f0ffff;
+	/* box-shadow: 0.2rem 0.2rem 0.1rem #00000040 inset; */
+}
+
+main::-webkit-scrollbar-thumb:hover,
+.articles::-webkit-scrollbar-thumb:hover {
+	background-color: #50808fff;
+}
+
+main::-webkit-scrollbar-thumb:hover {
+	border: 0.2rem solid #c0f0ffff;
 }
 
 .articles::-webkit-scrollbar-track {
@@ -44,7 +57,6 @@ body::-webkit-scrollbar-thumb {
 
 .articles::-webkit-scrollbar-thumb {
 	border-radius: 0.3rem;
-	background-color: #50808fff;
 	/* box-shadow: 
     -0.2rem -0.2rem 0.2rem #00000020 inset,
 		0.2rem 0.2rem 0.2rem #ffffff40 inset; */

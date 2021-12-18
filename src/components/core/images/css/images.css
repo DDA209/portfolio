@@ -1,14 +1,14 @@
-img#picture-pofile {
+#picture-pofile {
+	background-color: #40586080;
+	backdrop-filter: blur(3px);
 	border-radius: 50%;
 	height: 20rem;
 	width: 20rem;
-	max-height: 80vw;
-	max-width: 80vw;
-	min-height: 15vh;
-	min-width: 15vh;
+	padding: 1rem;
 	margin: auto auto -5rem auto;
 	z-index: 10;
 	box-shadow: 0 0 0.5rem 0.5rem #00000040;
+	transition: transform 1000ms ease-out;
 }
 
 img.logo-compagny,
@@ -19,4 +19,8 @@ img.icon {
 img.logo-compagny {
 	max-height: 95%;
 	max-width: 95%;
+}
+
+#picture-pofile.move-profile-picture {
+	transform: scale(0.95, 0.95) translateY(-0.5rem);
 }

@@ -48,8 +48,8 @@ class Experiences extends Component {
 				full: [
 					"Création d'une application en totale autonomie",
 					"Maquetter l'application, modéliser / designer la base de données et la développer, développer l'API REST, le back-end et le front-end de l'application.",
-					// 'Être force de proposition dans différents domaines.',
-					// 'Recruter et accompagner de nouveaux développeurs.',
+					'Être force de proposition dans différents domaines.',
+					'Recruter et accompagner de nouveaux développeurs.',
 				],
 				short: "Développement d'une application from scratch",
 			},
@@ -62,14 +62,14 @@ class Experiences extends Component {
 							'HTML',
 							'CSS',
 							'JavaScript',
-							// 'MongoDB',
-							// 'Express.JS',
-							// 'React',
-							// 'Node.JS',
-							// 'Pyton',
-							// 'Django',
-							// 'MySQL',
-							// 'Bootstrap',
+							'MongoDB',
+							'Express.JS',
+							'React',
+							'Node.JS',
+							'Pyton',
+							'Django',
+							'MySQL',
+							'Bootstrap',
 						],
 					},
 					{
@@ -97,6 +97,7 @@ class Experiences extends Component {
 		};
 		// this.experiencesAdd = this.experiencesAdd.bind(this);
 	}
+
 	experiencesAdd() {
 		return (
 			<div className="experiences">

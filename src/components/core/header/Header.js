@@ -8,7 +8,9 @@ class Header extends Component {
 			<>
 				<div className="background"></div>
 				<header>
-					<ProfilePicture />
+					<ProfilePicture
+						moveProfilePicture={this.props.moveProfilePicture}
+					/>
 				</header>
 			</>
 		);

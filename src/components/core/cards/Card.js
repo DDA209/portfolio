@@ -14,6 +14,7 @@ class Card extends Component {
 			);
 		},
 	};
+
 	render() {
 		console.log('card.js #renders this.props >>>', this.props);
 		return (

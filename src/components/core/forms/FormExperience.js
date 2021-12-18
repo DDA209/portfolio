@@ -91,7 +91,6 @@ class FormExperience extends Component {
 						<label>Date de début :</label>
 						<Field
 							className="input"
-							type="date"
 							id="startDate"
 							name="startDate"
 							type="month"
@@ -100,7 +99,6 @@ class FormExperience extends Component {
 						<label>Date de fin :</label>
 						<Field
 							className="input"
-							type="date"
 							id="endDate"
 							name="endDate"
 							type="month"
