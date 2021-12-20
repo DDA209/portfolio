@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import CardExperience from './CardExperience';
+import CardExperience from '../../cards/CardExperience';
 import './css/cards.css';
 
 class Card extends Component {

@@ -2,7 +2,7 @@ import { Component } from 'react';
 import Card from '../../components/core/cards/Card';
 import FormExperience from '../../components/core/forms/FormExperience';
 
-import './experiences.css';
+import './css/experiences.css';
 
 class ExperiencesView extends Component {
 	constructor(props) {
@@ -101,7 +101,7 @@ class ExperiencesView extends Component {
 
 	experiencesAdd() {
 		return (
-			<div className="experiences">
+			<section id="experiences">
 				<h2>Add an experience</h2>
 				<FormExperience experience={this.state} />
 				<Card
@@ -109,7 +109,7 @@ class ExperiencesView extends Component {
 					type="experience"
 					datas={this.state}
 				/>
-			</div>
+			</section>
 		);
 	}
 	render() {

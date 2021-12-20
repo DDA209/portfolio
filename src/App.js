@@ -7,6 +7,7 @@ import NavBarMain from './components/core/navs/NavBarMain';
 import './css/style.css';
 import './components/core/images/css/images.css';
 import HomeView from './views/home/Home.view';
+import Preload from './components/preload/Preload';
 class App extends Component {
 	constructor(props) {
 		super(props);
@@ -53,23 +54,15 @@ class App extends Component {
 	render() {
 		return (
 			<>
+				<Preload />
 				<NavBarMain navModify={this.state.navModify} />
 				<main>
 					<Header
-						moveProfilePicture={this.props.moveProfilePicture}
+						moveProfilePicture={this.state.moveProfilePicture}
 					/>
 
 					<Routes>
-						<Route
-							path="/"
-							element={
-								<HomeView
-									moveProfilePicture={
-										this.state.moveProfilePicture
-									}
-								/>
-							}
-						/>
+						<Route path="/" element={<HomeView />} />
 					</Routes>
 				</main>
 			</>

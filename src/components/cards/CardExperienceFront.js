@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import './css/cardExperience.css';
-import '../../../css/scrollbars.css';
-import utils from '../../../common/index';
+import '../../css/scrollbars.css';
+import utils from '../../common/utils';
 
 class CardExperienceFront extends Component {
 	render() {

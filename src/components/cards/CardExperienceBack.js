@@ -1,8 +1,8 @@
 import { Component } from 'react';
 import './css/cardExperience.css';
-import '../../../css/scrollbars.css';
-import Badge from '../badges/Badge';
-import utils from '../../../common/index';
+import '../../css/scrollbars.css';
+import Badge from '../core/badges/Badge';
+import utils from '../../common/utils';
 
 class CardExperienceBack extends Component {
 	render() {

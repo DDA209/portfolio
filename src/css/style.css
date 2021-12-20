@@ -35,6 +35,10 @@ h6 {
 	display: inline;
 }
 
+section {
+	margin: 0;
+	padding: 5rem 1rem;
+}
 ul > li,
 .inline {
 	list-style: none;
@@ -92,8 +96,29 @@ select:focus {
 	box-shadow: 0.1rem 0.1rem 0.1rem #00000020 inset,
 		-0.1rem -0.1rem 0.1rem #ffffffaf inset;
 	border-radius: 0.125rem;
-	margin: auto 0 0 0;
 }
+
+.vr {
+	display: inline-block;
+	width: 0.25rem;
+	box-shadow: 0.1rem 0.1rem 0.1rem #00000020 inset,
+		-0.1rem -0.1rem 0.1rem #ffffffaf inset;
+	border-radius: 0.125rem;
+}
+
+section > h2 {
+	display: block;
+	width: auto;
+	text-align: center;
+}
+
+section:nth-child(even) {
+	background-color: #c0f0ffff;
+}
+section:nth-child(odd) {
+	background-color: #ffffffff;
+}
+
 /* Temporary grid*/
 .height-auto {
 	height: auto;

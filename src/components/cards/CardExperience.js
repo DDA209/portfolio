@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import './css/cardExperience.css';
-import '../../../css/scrollbars.css';
+import '../../css/scrollbars.css';
 import CardExperienceFront from './CardExperienceFront';
 import CardExperienceBack from './CardExperienceBack';
 

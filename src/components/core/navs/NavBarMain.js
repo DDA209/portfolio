@@ -9,9 +9,10 @@ class NavBarMain extends Component {
 		return (
 			<>
 				<nav className={'main' + this.props.navModify}>
-					<h2>
-						<Link to="/">Didier PASCAREL</Link>
-					</h2>
+					<Link to="/">
+						<h2>Didier PASCAREL</h2>
+					</Link>
+
 					<div>
 						<ul>
 							<li>
@@ -32,9 +33,9 @@ class NavBarMain extends Component {
 							<li>
 								<a href="#softskills">J'aime</a>
 							</li>
-
+							<div className="vr"></div>
 							<li>
-								<a href="#softskills">J'aime</a>
+								<a href="#softskills">Me contacter</a>
 							</li>
 							<li></li>
 						</ul>
