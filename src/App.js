@@ -1,12 +1,12 @@
 import { Component } from 'react';
-import './css/style.css';
-import './components/core/images/css/images.css';
-// import CardExperience from './core/components/cards/CardExperience';
-// import FormExperience from './core/components/forms/FormExperience';
+import { Routes, Route } from 'react-router-dom';
+
 import Header from './components/core/header/Header';
 import NavBarMain from './components/core/navs/NavBarMain';
-import ExperiencesView from './views/experiences/Experiences.view';
 
+import './css/style.css';
+import './components/core/images/css/images.css';
+import HomeView from './views/home/Home.view';
 class App extends Component {
 	constructor(props) {
 		super(props);
@@ -56,9 +56,21 @@ class App extends Component {
 				<NavBarMain navModify={this.state.navModify} />
 				<main>
 					<Header
-						moveProfilePicture={this.state.moveProfilePicture}
+						moveProfilePicture={this.props.moveProfilePicture}
 					/>
-					<ExperiencesView />
+
+					<Routes>
+						<Route
+							path="/"
+							element={
+								<HomeView
+									moveProfilePicture={
+										this.state.moveProfilePicture
+									}
+								/>
+							}
+						/>
+					</Routes>
 				</main>
 			</>
 		);

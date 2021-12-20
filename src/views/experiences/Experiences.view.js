@@ -1,9 +1,10 @@
 import { Component } from 'react';
-import './experiences.css';
 import Card from '../../components/core/cards/Card';
 import FormExperience from '../../components/core/forms/FormExperience';
 
-class Experiences extends Component {
+import './experiences.css';
+
+class ExperiencesView extends Component {
 	constructor(props) {
 		super(props);
 
@@ -95,7 +96,7 @@ class Experiences extends Component {
 				madSkills: [{ groupName: 'joy', skills: ['fédérateur'] }],
 			},
 		};
-		// this.experiencesAdd = this.experiencesAdd.bind(this);
+		// this.experiencesViewAdd = this.experiencesAdd.bind(this);
 	}
 
 	experiencesAdd() {
@@ -116,4 +117,4 @@ class Experiences extends Component {
 	}
 }
 
-export default Experiences;
+export default ExperiencesView;

@@ -11,7 +11,7 @@ class CardExperienceFront extends Component {
 				{/**  Job title  **/}
 				<div className="width-12 height-4">
 					<h2>{this.props.datas.jobTitle.full}</h2>
-					<hr />
+					<div className="hr"></div>
 				</div>
 				{/**  date from  **/}
 				<div className="width-6 height-2">

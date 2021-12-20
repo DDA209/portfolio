@@ -20,7 +20,7 @@ class CardExperienceBack extends Component {
 					</p>
 				</div>
 				<div className="width-3 height-2">
-					<hr />
+					<div className="hr"></div>
 				</div>
 				{/**  date to  **/}
 				<div className="width-4_5 height-2 ">
