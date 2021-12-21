@@ -9,7 +9,7 @@ class NavBarMain extends Component {
 		return (
 			<>
 				<nav className={'main' + this.props.navModify}>
-					<Link to="/">
+					<Link to="/" href="#home">
 						<h2>Didier PASCAREL</h2>
 					</Link>
 

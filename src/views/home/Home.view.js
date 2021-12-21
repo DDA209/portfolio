@@ -6,10 +6,10 @@ import PresentationView from '../presentation/Presentation.view';
 class HomeView extends Component {
 	render() {
 		return (
-			<>
+			<div id="home">
 				<PresentationView />
 				<ExperiencesView />
-			</>
+			</div>
 		);
 	}
 }

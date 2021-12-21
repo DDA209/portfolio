@@ -1,8 +1,78 @@
+@font-face {
+	font-family: cinzel;
+	src: url('../../../fonts/Cinzel-Regular.otf') format('opentype');
+}
 #loading {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
 	z-index: 100;
+	opacity: 100%;
 	overflow: hidden;
-	background-color: #ffffffd0;
+	background-color: #ffffffff;
 	color: #102060ff;
 	height: 100vh;
 	width: 100vw;
+	/* transition: transform 1.5s ease-out; */
+	animation: 1.7s vanish;
+	animation-delay: 2.2s;
+	animation-fill-mode: forwards;
+}
+
+#loading img {
+	display: hidden;
+	transform: rotate(-6deg);
+	padding: 3rem;
+	max-width: 90vw;
+	min-width: 50vw;
+	animation: 1.5s signature alternate;
+}
+
+#loading h2 {
+	font-family: cinzel, Georgia, sans-serif;
+	color: #10206000;
+	font-size: 3rem;
+	font-weight: 100;
+	animation: ease-out subtitle 1.5s;
+	animation-delay: 0.2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes signature {
+	from {
+		trasnsform: scale(0.85);
+	}
+	to {
+		trasnsform: scale(1.1);
+	}
+}
+
+@keyframes subtitle {
+	from {
+		color: #10206000;
+	}
+	to {
+		color: #102060ff;
+	}
+}
+
+@keyframes vanish {
+	0% {
+		z-index: 100;
+	}
+	from {
+		display: flex;
+		opacity: 100%;
+		z-index: 100;
+	}
+	to {
+		display: none;
+		opacity: 0;
+		z-index: -10;
+	}
+	100% {
+		z-index: -10;
+	}
 }

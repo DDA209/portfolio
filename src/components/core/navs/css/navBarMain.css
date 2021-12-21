@@ -10,15 +10,15 @@ nav.main {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 100 vw;
-	z-index: 200;
+	width: 100vw;
+	z-index: 20;
 	box-shadow: 0 0.6rem 0.6rem #00000060;
-	transition: transform 500ms ease-out, box-shadow 500ms;
+	transition: transform 350ms ease-out, box-shadow 500ms;
 	backdrop-filter: blur(10px);
 }
 
 nav.main ul {
-	transition: transform 200ms ease-out;
+	transition: transform 350ms ease-out;
 }
 
 nav.main:before {

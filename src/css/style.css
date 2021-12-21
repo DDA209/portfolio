@@ -3,11 +3,11 @@
 	src: url('../fonts/Comfortaa-Regular.ttf') format('truetype');
 }
 @font-face {
-	font-family: 'confortaa bold';
+	font-family: 'confortaa-bold';
 	src: url('../fonts/Comfortaa-Bold.ttf') format('truetype');
 }
 @font-face {
-	font-family: 'confortaa light';
+	font-family: 'confortaa-light';
 	src: url('../fonts/Comfortaa-Light.ttf') format('truetype');
 }
 
@@ -24,6 +24,7 @@
 	border: none;
 	font-family: nunito, arial, sans-serif;
 	font-size: 0.9rem;
+	scroll-behavior: smooth;
 }
 
 h1,

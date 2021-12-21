@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg824"
+   width="910"
+   height="380"
+   viewBox="0 0 910 380"
+   sodipodi:docname="Git-Logo-2Color.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs828" />
+  <sodipodi:namedview
+     id="namedview826"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="421.5"
+     inkscape:cy="63.5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g830" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g830">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:49.3756px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.2344"
+       x="448.93076"
+       y="282.06656"
+       id="text3559"
+       transform="scale(0.99029255,1.0098026)"><tspan
+         sodipodi:role="line"
+         id="tspan3557"
+         x="448.93076"
+         y="282.06656"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:362.088px;font-family:Adelle;-inkscape-font-specification:'Adelle, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#3d2d00;fill-opacity:1;stroke-width:1.2344">git</tspan></text>
+    <path
+       id="rect958"
+       style="opacity:1;fill:#ff5033;fill-opacity:1;stroke:none;stroke-width:18.9583;stroke-linecap:round;stroke-linejoin:round"
+       d="m 7.2813555,172.19703 c -9.708474,9.70848 -9.708474,25.33984 0,35.04833 L 172.75526,372.71927 c 9.70847,9.70848 25.33986,9.70848 35.04834,1e-5 L 372.7199,207.80304 c 9.70848,-9.70847 9.70848,-25.33987 -10e-6,-35.04833 L 207.24592,7.2807257 c -9.70849,-9.7084737 -25.33987,-9.7084737 -35.04834,0 l -34.57486,34.5748643 43.7476,43.747593 a 28.800651,28.800641 0 0 1 29.81525,6.837115 28.800651,28.800641 0 0 1 6.80813,29.786292 l 42.44727,42.44726 c 10.42868,-3.62717 22.01327,-0.97308 29.82216,6.83296 11.24722,11.24733 11.24721,29.48274 0,40.73006 -11.24733,11.24722 -29.48273,11.24721 -40.73006,0 -8.22237,-8.25696 -10.65903,-20.65498 -6.17314,-31.4096 l -39.75137,-39.75133 v 103.87224 a 28.800651,28.800641 0 0 1 16.25559,25.92113 28.800651,28.800641 0 0 1 -28.79928,28.79926 28.800651,28.800641 0 0 1 -28.80065,-28.80064 28.800651,28.800641 0 0 1 17.84442,-26.57405 V 139.33386 a 28.800651,28.800641 0 0 1 -9.65313,-6.16348 28.800651,28.800641 0 0 1 -6.169,-31.41651 L 121.00547,58.472824 Z" />
+  </g>
+</svg>
