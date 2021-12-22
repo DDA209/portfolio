@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="logo-express.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.76613356"
+     inkscape:cx="214.71452"
+     inkscape:cy="426.1659"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g2218">
+      <path
+         id="path858"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke-width:2.13333336;stroke-linecap:square;stroke-linejoin:miter;stroke:#000000;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+         d="M 483.68945 446.34961 A 72.666666 81.333329 0 0 0 411.02148 527.68359 A 72.666666 81.333329 0 0 0 483.68945 609.01562 A 72.666666 81.333329 0 0 0 552.55078 553.11133 L 537.27344 553.11133 A 58 66.666666 0 0 1 483.68945 594.34961 A 58 66.666666 0 0 1 426.15234 534.44531 L 541.35156 534.44531 L 550.61133 534.44531 L 555.95898 534.44531 A 72.666666 81.333329 0 0 0 556.35547 527.68359 A 72.666666 81.333329 0 0 0 483.68945 446.34961 z M 483.68945 461.01562 A 58 66.666666 0 0 1 541.26367 519.77734 L 426.23047 519.77734 A 58 66.666666 0 0 1 483.68945 461.01562 z "
+         transform="scale(0.26458333)" />
+      <path
+         id="rect1118-0"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke-width:2.13333336;stroke-linecap:square;stroke-linejoin:miter;stroke:#000000;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+         d="M 560.40234 446.34961 L 615.0957 523.71484 L 554.79102 609.01562 L 572.75391 609.01562 L 624.07617 536.41992 L 675.39844 609.01562 L 693.35938 609.01562 L 633.05664 523.7168 L 687.75195 446.34961 L 669.79102 446.34961 L 624.07617 511.01172 L 578.36133 446.34961 L 560.40234 446.34961 z "
+         transform="scale(0.26458333)" />
+    </g>
+  </g>
+</svg>

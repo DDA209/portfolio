@@ -1,9 +1,7 @@
 .card-main {
-	background-color: #f0f8ffff;
+	/* background-color: #f0f8ffff; */
+	background-color: #ffffffff;
 	border-radius: 0.7rem;
-	box-shadow: 0.05rem 0.05rem 0.5rem #00000020,
-		-0.2rem -0.2rem 0.2rem #00000040 inset,
-		0.2rem 0.2rem 0.2rem #ffffffff inset;
 	height: 1px;
 	width: 1px;
 }

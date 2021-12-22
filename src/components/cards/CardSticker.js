@@ -1,29 +1,30 @@
 import { Component } from 'react';
-import './css/cardExperience.css';
-import '../../css/scrollbars.css';
-
+import './css/cardSticker.css';
 class CardSticker extends Component {
 	render() {
 		console.log(
-			'components/core/cards/CardExperience.js #renders this.props >>>',
+			'components/core/cards/CardSticker.js #renders this.props >>>',
 			this.props
-		);
-		console.log(
-			'components/core/cards/CardExperience.js #renders this.props.context >>>',
-			this.props.context
 		);
 
 		return (
-			<div className="card-sticker width-12 height-20">
-				<div className="card-sticker width-12 height-15">
+			<div className="card-sticker">
+				<div className="logo width-12 height-15">
 					<img
-						className={this.props.types[0]}
-						src={this.props.url}
-						alt={this.props.description}
+						className={this.props.skillTypes[0]}
+						src={
+							this.props.picture.url ||
+							'/images/stack/logo-skill-default.svg'
+						}
+						alt={
+							this.props.picture.url
+								? this.props.picture.description
+								: 'pas de logo disponible'
+						}
 					/>
 				</div>
-				<div className="card-sticker width-12 height-5">
-					<h3>{this.props.name}</h3>
+				<div className="title width-12 height-5">
+					<p>{this.props.name}</p>
 				</div>
 			</div>
 		);

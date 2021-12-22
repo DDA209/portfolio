@@ -136,6 +136,9 @@ section:nth-child(odd) {
 .height-4 {
 	height: 20%;
 }
+.height-5 {
+	height: 25%;
+}
 .height-8 {
 	height: 40%;
 }
@@ -144,6 +147,12 @@ section:nth-child(odd) {
 }
 .height-13 {
 	height: 65%;
+}
+.height-14 {
+	height: 70%;
+}
+.height-15 {
+	height: 75%;
 }
 .height-19 {
 	height: 95%;
@@ -192,6 +201,9 @@ section:nth-child(odd) {
 }
 .width-9 {
 	width: calc(75% - (2 * 0.35rem));
+}
+.width-11 {
+	width: calc((100% / 12 * 11) - (2 * 0.35rem));
 }
 .width-12 {
 	width: calc(100% - (2 * 0.35rem));

@@ -17,7 +17,7 @@
 	width: 100vw;
 	/* transition: transform 1.5s ease-out; */
 	animation: 1.7s vanish;
-	animation-delay: 2.2s;
+	animation-delay: 1.7s;
 	animation-fill-mode: forwards;
 }
 
