@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import CardSticker from '../../components/cards/CardSticker';
+import './css/stackView.css';
 
 class StackView extends Component {
 	constructor(props) {
@@ -16,39 +17,31 @@ class StackView extends Component {
 					},
 				},
 				{
-					name: 'github',
+					name: 'HTML 5',
 					types: ['technic', 'framework'],
 					picture: {
-						url: '/images/stack/logo-github.svg',
-						description: 'logo of github',
-					},
-				},
-				{
-					name: 'inkscape',
-					types: ['technic', 'framework'],
-					picture: {
-						url: '/images/stack/logo-inkscape.svg',
-						description: 'logo of inkscape',
+						url: '/images/stack/logo-html5.svg',
+						description: 'logo of HTML 5',
 					},
 				},
 				{
 					name: 'CSS 3',
 					types: ['technic', 'framework'],
 					picture: {
-						url: '',
+						url: '/images/stack/logo-css3.svg',
 						description: 'logo of CSS 3',
 					},
 				},
 				{
-					name: 'javascript',
+					name: 'JavaScript',
 					types: ['technic', 'framework'],
 					picture: {
-						url: '',
-						description: 'logo of javascript',
+						url: '/images/stack/logo-javascript.svg',
+						description: 'logo of JavaScript',
 					},
 				},
 				{
-					name: 'react',
+					name: 'React',
 					types: ['technic', 'framework'],
 					picture: {
 						url: '/images/stack/logo-react.svg',
@@ -56,11 +49,11 @@ class StackView extends Component {
 					},
 				},
 				{
-					name: 'html 5',
-					types: ['technic', 'framework'],
+					name: 'Autoit',
+					types: ['technic', 'development'],
 					picture: {
-						url: '/images/stack/logo-html5.svg',
-						description: 'logo of html5',
+						url: '/images/stack/logo-autoit.svg',
+						description: 'logo of Autoit',
 					},
 				},
 				{
@@ -72,27 +65,75 @@ class StackView extends Component {
 					},
 				},
 				{
-					name: 'gitlab',
+					name: 'GitHub',
+					types: ['technic', 'framework'],
+					picture: {
+						url: '/images/stack/logo-github.svg',
+						description: 'logo of GitHub',
+					},
+				},
+				{
+					name: 'GitLab',
 					types: ['technic', 'framework'],
 					picture: {
 						url: '/images/stack/logo-gitlab.svg',
-						description: 'logo of gitlab',
+						description: 'logo of GitLab',
 					},
 				},
 				{
-					name: 'node',
+					name: 'MDN',
 					types: ['technic', 'framework'],
 					picture: {
-						url: '/images/stack/logo-node.svg',
-						description: 'logo of node',
+						url: '/images/stack/logo-mdn.svg',
+						description: 'logo of MDN',
 					},
 				},
 				{
-					name: 'gimp',
+					name: 'Node',
+					types: ['technic', 'framework'],
+					picture: {
+						url: '/images/stack/logo-node-wordmark.svg',
+						description: 'logo of Node',
+					},
+				},
+				{
+					name: 'Express.JS',
+					types: ['technic', 'framework'],
+					picture: {
+						url: '/images/stack/logo-express.svg',
+						description: 'logo of Express.JS',
+					},
+				},
+				{
+					name: 'mongoDB',
+					types: ['technic', 'framework'],
+					picture: {
+						url: '/images/stack/logo-mongodb-wordmark.svg',
+						description: 'logo of mongo DB',
+					},
+				},
+				{
+					name: 'mongoose',
+					types: ['technic', 'framework'],
+					picture: {
+						url: '/images/stack/logo-mongoose.svg',
+						description: 'logo of mongoose',
+					},
+				},
+				{
+					name: 'Gimp',
 					types: ['technic', 'framework'],
 					picture: {
 						url: '/images/stack/logo-gimp2.svg',
-						description: 'logo of gimp',
+						description: 'logo of Gimp',
+					},
+				},
+				{
+					name: 'Inkscape',
+					types: ['technic', 'framework'],
+					picture: {
+						url: '/images/stack/logo-inkscape.svg',
+						description: 'logo of Inkscape',
 					},
 				},
 			],

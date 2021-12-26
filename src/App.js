@@ -21,12 +21,18 @@ class App extends Component {
 
 	componentDidMount() {
 		const main = document.querySelector('main');
-		main.addEventListener('scroll', () => {
+
+		main.addEventListener('scroll', (event) => {
+			console.log('app.js #componentDidMount event >>>', event);
 			const scrollYValue = main.scrollTop;
 			console.log(
-				'components/core/navs/NavBarMain.js #componentDidMount scrollYVAlue >>>',
+				'app.js #componentDidMount scrollYVAlue >>>',
 				scrollYValue
 			);
+			document.querySelector(
+				'main > .background'
+			).style.cssText = `background-position = 0 -${scrollYValue}`;
+
 			if (
 				scrollYValue > 300 &&
 				scrollYValue > this.state.scrollLastStep
@@ -35,7 +41,7 @@ class App extends Component {
 					navModify: ' hide',
 					moveProfilePicture: ' move-profile-picture',
 				});
-			} else {
+			} else if (scrollYValue < 300) {
 				this.setState({
 					navModify: '',
 				});

@@ -10,7 +10,7 @@ class CardExperienceBack extends Component {
 			<div className="card-back width-12 height-20">
 				{/**  Job title  **/}
 				<div className="width-12 height-2">
-					<h5>{this.props.datas.jobTitle.short}</h5>
+					<h4>{this.props.datas.jobTitle.short}</h4>
 				</div>
 				{/**  date from  **/}
 				<div className="width-4_5 height-2 ">
@@ -33,11 +33,11 @@ class CardExperienceBack extends Component {
 				<div className="width-12 height-13">
 					<div className="container-down  articles">
 						<div className="width-12">
-							<h6>
+							<h5>
 								Mission
 								{this.props.datas.descriptions.full.length >
 									1 && 's'}
-							</h6>
+							</h5>
 							<article>
 								{this.props.datas.descriptions.full.map(
 									(achievement, index) => {
@@ -51,7 +51,7 @@ class CardExperienceBack extends Component {
 							''
 						) : (
 							<div className="width-12">
-								<h6>Environnement technique</h6>
+								<h5>Environnement technique</h5>
 								<article className="skills">
 									{this.props.context === 'form' && (
 										<Badge type="action">+</Badge>

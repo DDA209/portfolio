@@ -22,28 +22,27 @@ main::-webkit-scrollbar-track {
 
 main::-webkit-scrollbar {
 	width: 0.9rem;
+	height: 0.9rem;
 }
 
 main::-webkit-scrollbar-thumb,
 .articles::-webkit-scrollbar-thumb {
-	background-color: #50808fb0;
+	background-color: #50808fd0;
 }
 
 main::-webkit-scrollbar-thumb {
 	border-radius: 1rem;
 	border: 0.325rem solid #c0f0ffff;
+	/* box-shadow: 0.2rem 0.2rem 0.1rem #00000040 inset; */
 }
 
 main::-webkit-scrollbar-thumb:hover,
 .articles::-webkit-scrollbar-thumb:hover {
 	background-color: #50808fff;
-
-	box-shadow: -0.05rem -0.05rem 0.1rem #00000040 inset,
-		0.05rem 0.05rem 0.1rem #ffffffff inset;
 }
 
 main::-webkit-scrollbar-thumb:hover {
-	border: 0.1rem solid #c0f0ffff;
+	border: 0.2rem solid #c0f0ffff;
 }
 
 .articles::-webkit-scrollbar-track {

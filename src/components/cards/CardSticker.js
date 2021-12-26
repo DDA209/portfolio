@@ -2,10 +2,10 @@ import { Component } from 'react';
 import './css/cardSticker.css';
 class CardSticker extends Component {
 	render() {
-		console.log(
-			'components/core/cards/CardSticker.js #renders this.props >>>',
-			this.props
-		);
+		// console.log(
+		// 	'components/core/cards/CardSticker.js #renders this.props >>>',
+		// 	this.props
+		// );
 
 		return (
 			<div className="card-sticker">

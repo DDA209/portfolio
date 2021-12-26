@@ -16,6 +16,10 @@
 	src: url('../fonts/Nunito-VariableFont_wght.ttf') format('truetype');
 }
 
+@font-face {
+	font-family: 'cinzel';
+	src: url('../fonts/Cinzel-Regular.otf') format('opentype');
+}
 * {
 	text-decoration: none;
 	margin: 0;
@@ -23,7 +27,8 @@
 	background-color: #ffffff00;
 	border: none;
 	font-family: nunito, arial, sans-serif;
-	font-size: 0.9rem;
+	font-size: 1rem;
+	font-weight: 500;
 	scroll-behavior: smooth;
 }
 
@@ -34,11 +39,20 @@ h4,
 h5,
 h6 {
 	display: inline;
+	/* font-family: cinzel, Times, serif; */
 }
 
+h2,
+h3 {
+	margin: 1rem 0;
+}
+
+h6 {
+}
 section {
 	margin: 0;
-	padding: 5rem 1rem;
+	padding: 4rem 1rem;
+	align-content: center;
 }
 ul > li,
 .inline {
@@ -114,7 +128,7 @@ section > h2 {
 }
 
 section:nth-child(even) {
-	background-color: #c0f0ffff;
+	background-color: #9cb8c2;
 }
 section:nth-child(odd) {
 	background-color: #ffffffff;

@@ -59,10 +59,10 @@ const colors = {
  */
 class BadgeDefault extends Component {
 	render() {
-		console.log(
-			'components/core/badges/Badges.js #render this.props.type >>>',
-			this.props.type
-		);
+		// console.log(
+		// 	'components/core/badges/Badges.js #render this.props.type >>>',
+		// 	this.props.type
+		// );
 		return (
 			<>
 				<Badge

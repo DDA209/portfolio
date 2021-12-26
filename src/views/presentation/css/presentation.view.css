@@ -1,0 +1,8 @@
+#presentation > div {
+	display: flex;
+}
+
+.presentaion-article {
+	width: calc(33vw - 3rem);
+	padding: 0 1rem;
+}

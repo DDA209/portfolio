@@ -6,14 +6,14 @@ import CardExperienceBack from './CardExperienceBack';
 
 class CardExperience extends Component {
 	render() {
-		console.log(
-			'components/core/cards/CardExperience.js #renders this.props >>>',
-			this.props
-		);
-		console.log(
-			'components/core/cards/CardExperience.js #renders this.props.context >>>',
-			this.props.context
-		);
+		// console.log(
+		// 	'components/core/cards/CardExperience.js #renders this.props >>>',
+		// 	this.props
+		// );
+		// console.log(
+		// 	'components/core/cards/CardExperience.js #renders this.props.context >>>',
+		// 	this.props.context
+		// );
 
 		return (
 			<div className="card-experience width-12 height-20">

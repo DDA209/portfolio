@@ -3,7 +3,10 @@ nav.main,
 	height: 4rem;
 	width: 100%;
 }
-
+nav img {
+	height: 2.3rem;
+	margin: auto auto auto 2rem;
+}
 nav.main {
 	position: fixed;
 	background-color: #ffffffd0;
@@ -13,12 +16,14 @@ nav.main {
 	width: 100vw;
 	z-index: 20;
 	box-shadow: 0 0.6rem 0.6rem #00000060;
-	transition: transform 350ms ease-out, box-shadow 500ms;
 	backdrop-filter: blur(10px);
 }
 
-nav.main ul {
-	transition: transform 350ms ease-out;
+nav.main,
+nav.main ul,
+nav.main ul a {
+	transition: transform 350ms ease-out, box-shadow 500ms ease-out,
+		font-size 350ms ease-out;
 }
 
 nav.main:before {
@@ -38,15 +43,19 @@ nav.hide {
 	/* top: -4rem; */
 
 	box-shadow: 0 0.3rem 0.3rem #00000040;
-	transform: translateY(-2.8rem);
+	transform: translateY(-3.1rem);
 }
 nav.hide ul {
-	transform: translateY(1.4rem);
+	transform: translateY(1.5rem);
 }
+nav.hide li a {
+	font-size: 0.85rem;
+}
+
 /*
 320px — 480px: Mobile devices.
 481px — 768px: iPads, Tablets.
-769px — 1024px: Small screens, laptops.
+769px — 1024px: Small screens, laptops. --------- burgering
 1025px — 1200px: Desktops, large screens.
 1201px and more — Extra large screens, TV.
 */

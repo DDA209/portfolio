@@ -6,50 +6,58 @@
 	display: inline-block;
 	background-color: #595c5fff;
 	color: #ffffffaf;
-	border-radius: 0.55rem;
+	border-radius: 0.15rem;
 	transform-style: preserve-3d;
-	width: 13rem !important;
-	height: 17.25rem !important;
-	margin: 1.5rem;
+	width: 5.8125rem !important;
+	height: 7.75rem !important;
+	margin: 1rem;
 	padding: 0;
-	box-shadow: 0.1rem 0.1rem 0.3rem #00000040,
-		0.2rem 0.2rem 0.2rem #ffffff80 inset,
-		-0.2rem -0.2rem 0.2rem #00000080 inset;
+	box-shadow: 0.05rem 0.05rem 0.15rem #00000040,
+		0.1rem 0.1rem 0.1rem #ffffff80 inset,
+		-0.1rem -0.1rem 0.1rem #00000080 inset;
 	text-align: center;
 	transition: ease-in-out 0.15s transform, ease-in-out 0.15s box-shadow;
 }
 
 .card-sticker p {
-	padding-top: 0.7rem;
+	position: initial;
+	padding-top: 0.6rem;
 	font-weight: 100;
-	font-size: 2rem;
+	font-size: 0.85rem;
+	line-height: 80%;
 	height: 100%;
-	transition: ease-in-out 1s text-shadow, ease-in-out 0.5s color;
+	transition: ease-in-out 0.5s text-shadow, ease-in-out 0.5s color;
 }
 .card-sticker .logo {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: #ffffffff !important;
-	border-radius: 0.55rem;
-	box-shadow: 0.07rem 0.07rem 0.21rem 0.15rem #00000040 inset;
+	border-radius: 0.15rem 0.15rem 0.5rem 0.5rem;
+	/* border-radius: 0.15rem 0.15rem 0.3rem 0.3rem; */
+	box-shadow: 0.035rem 0.035rem 0.105rem 0.075rem #00000040 inset;
+	overflow: hidden;
 }
 
 .card-sticker img {
-	max-height: 10rem;
-	max-width: 10rem;
+	height: 4rem;
+	width: 4rem;
 	fill: #cacacaff;
 }
 
 .card-sticker:hover {
-	transform: translateY(-0.3rem);
-	box-shadow: 0.15rem 0.3rem 0.8rem 0rem #00000040,
+	box-shadow: 0.15rem 0.3rem 0.8rem #00000040,
 		0.2rem 0.2rem 0.2rem #ffffff80 inset,
 		-0.2rem -0.2rem 0.2rem #00000080 inset;
+	transform: translateY(-0.85rem);
 	color: #ffffffff;
 }
 
 .card-sticker:hover p {
-	/* font-weight: 600; */
 	text-shadow: 0 0 2rem #ffffff40;
+}
+
+.card-sticker:hover img {
+	transition: 0.5s transform;
+	transform: scale(1.2);
 }
