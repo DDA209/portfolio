@@ -30,8 +30,8 @@ class App extends Component {
 				scrollYValue
 			);
 			document.querySelector(
-				'main > .background'
-			).style.cssText = `background-position = 0 -${scrollYValue}`;
+				'main > #background'
+			).style.cssText = `background-position-y = -${scrollYValue / 2}`;
 
 			if (
 				scrollYValue > 300 &&
@@ -49,11 +49,19 @@ class App extends Component {
 			this.setState({
 				scrollLastStep: scrollYValue,
 			});
+
+			/**
+			 * Moving and resising profile picture with scroll
+			 */
 			if (scrollYValue < 300) {
 				this.setState({
 					moveProfilePicture: '',
 				});
 			}
+
+			/**
+			 * Moving background slower
+			 */
 		});
 	}
 

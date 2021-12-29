@@ -6,7 +6,7 @@ class Header extends Component {
 	render() {
 		return (
 			<>
-				<div className="background"></div>
+				<div id="background"></div>
 				<header>
 					<ProfilePicture
 						moveProfilePicture={this.props.moveProfilePicture}

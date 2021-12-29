@@ -1,5 +1,5 @@
 header,
-.background {
+#background {
 	height: 50rem;
 	width: 100vw;
 	min-height: 20vh;
@@ -13,7 +13,7 @@ header {
 	justify-content: center;
 }
 
-.background {
+#background {
 	position: fixed;
 	background: url('../work.jfif');
 	background-size: cover;
