@@ -17,7 +17,7 @@ main::-webkit-scrollbar-track-piece {
 }
 
 main::-webkit-scrollbar-track {
-	background-color: #c0f0ffff;
+	background-color: #ffffffff;
 }
 
 main::-webkit-scrollbar {
@@ -27,12 +27,12 @@ main::-webkit-scrollbar {
 
 main::-webkit-scrollbar-thumb,
 .articles::-webkit-scrollbar-thumb {
-	background-color: #50808fd0;
+	background-color: #89b4c2d0;
 }
 
 main::-webkit-scrollbar-thumb {
 	border-radius: 1rem;
-	border: 0.325rem solid #c0f0ffff;
+	border: 0.325rem solid #ffffffff;
 	/* box-shadow: 0.2rem 0.2rem 0.1rem #00000040 inset; */
 }
 
@@ -42,7 +42,7 @@ main::-webkit-scrollbar-thumb:hover,
 }
 
 main::-webkit-scrollbar-thumb:hover {
-	border: 0.2rem solid #c0f0ffff;
+	border: 0.2rem solid #ffffffff;
 }
 
 .articles::-webkit-scrollbar-track {

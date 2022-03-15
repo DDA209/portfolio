@@ -47,13 +47,17 @@ h3 {
 	margin: 1rem 0;
 }
 
-h6 {
-}
+/* h6 {
+} */
+
 section {
-	margin: 0;
-	padding: 4rem 1rem;
+	margin: 10rem 3vw;
+	padding: 4rem 0.5rem;
 	align-content: center;
+	border-radius: 1rem;
+	background-color: #ffffffff;
 }
+
 ul > li,
 .inline {
 	list-style: none;
@@ -121,18 +125,24 @@ select:focus {
 	border-radius: 0.125rem;
 }
 
+#home {
+	padding-top: 1px;
+	background-color: #e0ebf0;
+}
+
 section > h2 {
 	display: block;
 	width: auto;
 	text-align: center;
 }
 
-section:nth-child(even) {
+/* section:nth-child(even) {
 	background-color: #9cb8c2;
 }
+
 section:nth-child(odd) {
 	background-color: #ffffffff;
-}
+} */
 
 /* Temporary grid*/
 .height-auto {
@@ -221,4 +231,7 @@ section:nth-child(odd) {
 }
 .width-12 {
 	width: calc(100% - (2 * 0.35rem));
+}
+
+@media screen and (min-width < 900) {
 }

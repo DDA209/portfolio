@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import links from '../../../common/links';
+import { Link } from 'react-router-dom';
+// import links from '../../../common/links';
 import './css/navBar.css';
 import './css/navBarMain.css';
 
 class NavBarMain extends Component {
-	getNavList() {
-		let navList = [];
-		let position = 0;
-		links.forEach((link) => {});
-		return navList;
-	}
+	// getNavList() {
+	// 	let navList = [];
+	// 	let position = 0;
+	// 	links.forEach((link) => {});
+	// 	return navList;
+	// }
 
 	render() {
 		// console.log(' this.state.navModify >>>', this.props.navModify);
@@ -40,16 +40,8 @@ class NavBarMain extends Component {
 								<a href="#experiences">Expériences</a>
 							</li>
 							<li>
-								<a href="#softskills">Qualités</a>
+								<a href="#contact">Me contacter</a>
 							</li>
-							<li>
-								<a href="#softskills">J'aime</a>
-							</li>
-							<div className="vr"></div>
-							<li>
-								<a href="#softskills">Me contacter</a>
-							</li>
-							<li></li>
 						</ul>
 					</div>
 				</nav>

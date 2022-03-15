@@ -5,7 +5,12 @@ class FooterMain extends Component {
 	render() {
 		return (
 			<footer>
-				<div id="footer-socials" className="socials"></div>
+				<div id="footer-socials" className="socials">
+					<ul>
+						<li>LinkedIn</li>
+						<li>GitHub</li>
+					</ul>
+				</div>
 				<div id="sitemap"></div>
 			</footer>
 		);

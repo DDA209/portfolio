@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './components/core/header/Header';
 import NavBarMain from './components/core/navs/NavBarMain';
 
+import './css/shadows.css';
 import './css/style.css';
 import './components/core/images/css/images.css';
 import HomeView from './views/home/Home.view';
@@ -25,6 +26,7 @@ class App extends Component {
 		main.addEventListener('scroll', (event) => {
 			console.log('app.js #componentDidMount event >>>', event);
 			const scrollYValue = main.scrollTop;
+			const scrollBreackPoint = 300;
 			console.log(
 				'app.js #componentDidMount scrollYVAlue >>>',
 				scrollYValue
@@ -34,14 +36,14 @@ class App extends Component {
 			).style.cssText = `background-position-y = -${scrollYValue / 2}`;
 
 			if (
-				scrollYValue > 300 &&
+				scrollYValue > scrollBreackPoint &&
 				scrollYValue > this.state.scrollLastStep
 			) {
 				this.setState({
 					navModify: ' hide',
 					moveProfilePicture: ' move-profile-picture',
 				});
-			} else if (scrollYValue < 300) {
+			} else if (scrollYValue < scrollBreackPoint) {
 				this.setState({
 					navModify: '',
 				});
@@ -53,7 +55,7 @@ class App extends Component {
 			/**
 			 * Moving and resising profile picture with scroll
 			 */
-			if (scrollYValue < 300) {
+			if (scrollYValue < scrollBreackPoint) {
 				this.setState({
 					moveProfilePicture: '',
 				});

@@ -6,3 +6,13 @@
 	width: calc(33vw - 3rem);
 	padding: 0 1rem;
 }
+
+@media screen and (max-width: 768px) {
+	.presentaion-article {
+		width: calc(100vw - 6rem);
+		padding: 1rem 1rem;
+	}
+	#presentation > div {
+		display: block;
+	}
+}

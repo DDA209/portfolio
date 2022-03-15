@@ -1,4 +1,4 @@
-const links = [
+const nav = [
 	{
 		name: 'presentation',
 		text: 'À propos de moi',
@@ -43,4 +43,4 @@ const links = [
 	},
 ];
 
-export default links;
+export default nav;
