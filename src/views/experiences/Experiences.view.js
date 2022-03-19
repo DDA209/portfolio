@@ -10,6 +10,7 @@ class ExperiencesView extends Component {
 		this.state = {
 			experiences: [
 				{
+					id: 'konexio-1',
 					jobTitle: {
 						full: 'Développeur formateur stack MERN',
 						short: 'Formateur dev Web',
@@ -91,7 +92,7 @@ class ExperiencesView extends Component {
 						],
 						softSkills: [
 							{
-								groupName: 'savoir être',
+								groupName: 'know-how',
 								skills: [
 									'force de proposition',
 									'recrutement',
@@ -106,8 +107,9 @@ class ExperiencesView extends Component {
 					},
 				},
 				{
+					id: 'mpmc-1',
 					jobTitle: {
-						full: "Développeur d'application Web",
+						full: "Développeur d'application Web full stack",
 						short: 'Développeur Web full stack',
 					},
 					workingContract: 'Stage',
@@ -186,7 +188,7 @@ class ExperiencesView extends Component {
 						],
 						softSkills: [
 							{
-								groupName: 'savoir être',
+								groupName: 'know-how',
 								skills: [
 									'autonome',
 									'force de proposition',
@@ -201,9 +203,10 @@ class ExperiencesView extends Component {
 					},
 				},
 				{
+					id: 'transactis-1',
 					jobTitle: {
-						full: 'Analyste technique',
-						short: 'Analyste technique',
+						full: 'Analyste et homologateur monétique',
+						short: 'Homologateur monétique',
 					},
 					workingContract: 'CDI',
 					typeOfWorkLocation: 'Clientèle',
@@ -214,8 +217,8 @@ class ExperiencesView extends Component {
 					},
 					locations: [
 						{
-							zipCode: ['67', '300'],
-							city: 'Schiltigheim',
+							zipCode: ['67', '600'],
+							city: 'Sélestat',
 							canton: '',
 							department: 'Bas-Rhin',
 							region: 'Gand-Est',
@@ -224,7 +227,7 @@ class ExperiencesView extends Component {
 						},
 					],
 					dateStart: '01/01/2019',
-					dateEnd: '12/01/2019',
+					dateEnd: '12/31/2019',
 					clients: [
 						{
 							name: 'Transactis',
@@ -245,42 +248,143 @@ class ExperiencesView extends Component {
 					],
 					descriptions: {
 						full: [
-							'- Expert support technique :',
-							'clients : PriceWaterhouseCoopers, Mars, Air Liquide, Conseil Départemental du Haut-Rhin',
-							'',
-							'- Analyste monétique :',
-							'clients : IT-CE, Transactis (Société Générale, La Banque Postale, Crédit du Nord)',
-							'',
-							'- Technicien Qualifié pharmaceutique GxP :',
-							'client : Novartis',
+							'Réaliser et jouer les scénarios de tests.',
+							'Détecter et remonter les anomalies aux interlocuteurs identifiés (développeurs, éditeurs, constructeurs, back et front office).',
+							'Rédiger et transmettre les PV de test.',
+							'Assurer la disponibilité de l’environnement de test.',
+							'Former les nouveaux homologateurs aux outils et process.',
 						],
-						short: "Technicien senior, intégrateur d'applications, développeur",
+						short: "Tester les mises à jour d'automates bancaires",
 					},
-					achievements: ['22 ans de confiance'],
+					achievements: [
+						'Environnement de test toujours disponible. Remontés pertinantes de bugs lors des tests',
+					],
 					skills: {
 						hardSkills: [
 							{
-								groupName: 'languages',
-								skills: ['HTML'],
-							},
-							{
 								groupName: 'tools',
-								skills: ['GitHub'],
+								skills: [
+									'HP ALM QC',
+									'Kanest',
+									'Argaus',
+									'Archipel',
+								],
 							},
 							{
-								groupName: 'communication',
-								skills: ['Slack'],
+								groupName: 'os',
+								skills: ['Windows', 'z/OS mainframe', 'Neogab'],
+							},
+							{
+								groupName: 'hardware',
+								skills: ['GAB'],
 							},
 						],
 						softSkills: [
 							{
-								groupName: 'savoir être',
-								skills: ['force de proposition'],
+								groupName: 'know-how',
+								skills: [
+									'adaptabilité',
+									'force de proposition',
+									'polyvalence',
+								],
 							},
 						],
-						madSkills: [
-							{ groupName: 'joy', skills: ['fédérateur'] },
+						madSkills: [{ groupName: 'joy', skills: [''] }],
+					},
+				},
+				{
+					jobTitle: {
+						full: 'Analyste et homologateur monétique',
+						short: 'Homologateur monétique',
+					},
+					workingContract: 'CDI',
+					typeOfWorkLocation: 'Clientèle',
+					company: {
+						name: 'Capgemini',
+						activityArea: 'Entreprise de services du numérique',
+						logo: '/images/companies/logo-capgemini.png',
+					},
+					locations: [
+						{
+							zipCode: ['67', '600'],
+							city: 'Selestat',
+							canton: '',
+							department: 'Bas-Rhin',
+							region: 'Gand-Est',
+							state: '',
+							country: 'France',
+						},
+					],
+					dateStart: '01/01/2019',
+					dateEnd: '12/31/2019',
+					clients: [
+						{
+							name: 'Schmidt Groupe',
+							activityArea: 'Bancaire, monétique',
+							logo: '/images/companies/logo-schmidt.png',
+						},
+						// {
+						// 	name: 'Schmidt Groupe',
+						// 	activityArea:
+						// 		'Industrie du meubles',
+						// 	logo: '/images/companies/logo-schmidt.png',
+						// },
+						// {
+						// 	name: 'Novartis',
+						// 	activityArea: 'Industrie bio-pharmaceutique',
+						// 	logo: '/images/companies/logo-novartis.png',
+						// },
+					],
+					descriptions: {
+						full: [
+							'Analyser les pannes et alertes applicatives.',
+							'Développer, tester et mettre en production des correctifs et contrôles.',
+							'Présenter les modifications du SI à la production.',
+							'Communiquer à la production les impacts et délais.',
+							'Anticiper les besoins de la production.',
+							'Mettre en place et faire évoluer la documentation.',
 						],
+						short: 'Maintenir opérationnel les outils numériques de la production',
+					},
+					achievements: [
+						'Résolutions de pannes et maintien de la production',
+					],
+					skills: {
+						hardSkills: [
+							{
+								groupName: 'languages',
+								skills: ['Transact-SQL', 'C#'],
+							},
+							{
+								groupName: 'tools',
+								skills: ['Nagios', 'Acronis'],
+							},
+							{
+								groupName: 'os',
+								skills: ['Windows CE', 'Windows 10'],
+							},
+							{
+								groupName: 'hardware',
+								skills: [
+									'Usines de meubles',
+									'PC',
+									'Lecteurs codes-barres',
+								],
+							},
+						],
+						softSkills: [
+							{
+								groupName: 'know-how',
+								skills: [
+									'adaptabilité',
+									'force de proposition',
+									'ployvalence',
+									'adaptabilité relationnelle',
+									'adaptabilité technique',
+								],
+							},
+						],
+						madSkills: [{ groupName: 'joy', skills: [''] }],
 					},
 				},
 			],

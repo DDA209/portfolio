@@ -20,8 +20,14 @@ class NavBarMain extends Component {
 					<Link to="/" href="#home">
 						{/* <h1>Didier PASCAREL</h1> */}
 						<img
+							className="nameFull"
 							src="/images/didier-pascarel-bold.svg"
 							alt="Didier PASCAREL écrit de façon manuscrite"
+						/>
+						<img
+							className="initials"
+							src="/images/initials.svg"
+							alt="D P écrit de façon manuscrite"
 						/>
 					</Link>
 

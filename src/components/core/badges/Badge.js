@@ -33,6 +33,26 @@ const colors = {
 		colorBackground: ['#90e0e8ff', '#90d8e0ff', 0],
 		colorContent: '#000000ff',
 	},
+	languages: {
+		colorBackground: ['#90e0e8ff', '#90e0e8ff', 0],
+		colorContent: '#000000ff',
+	},
+	tools: {
+		colorBackground: ['#c02000ff', '#c02000ff', 0],
+		colorContent: '#ffffffff',
+	},
+	communication: {
+		colorBackground: ['#009000ff', '#009000ff', 0],
+		colorContent: '#ffffffff',
+	},
+	os: {
+		colorBackground: ['#0050d0ff', '#0050d0ff', 0],
+		colorContent: '#ffffffff',
+	},
+	hardware: {
+		colorBackground: ['#ffd810ff', '#ffd810ff', 0],
+		colorContent: '#000000ff',
+	},
 	skillSoft: {
 		colorBackground: ['#b4e0c4ff', '#90d8e0ff', 0],
 		colorContent: '#000000ff',
@@ -59,16 +79,24 @@ const colors = {
  */
 class BadgeDefault extends Component {
 	render() {
-		// console.log(
-		// 	'components/core/badges/Badges.js #render this.props.type >>>',
-		// 	this.props.type
-		// );
+		console.log(
+			'components/core/badges/Badges.js #render this.props.group >>>',
+			this.props.group
+		);
 		return (
 			<>
 				<Badge
 					as="div"
-					colorBackground={colors[this.props.type].colorBackground}
-					colorContent={colors[this.props.type].colorContent}
+					colorBackground={
+						this.props.group === undefined
+							? colors[this.props.type].colorBackground
+							: colors[this.props.group].colorBackground
+					}
+					colorContent={
+						this.props.group === undefined
+							? colors[this.props.type].colorContent
+							: colors[this.props.group].colorContent
+					}
 				>
 					{this.props.children}
 				</Badge>

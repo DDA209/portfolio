@@ -6,6 +6,10 @@ class CardSticker extends Component {
 		// 	'components/core/cards/CardSticker.js #renders this.props >>>',
 		// 	this.props
 		// );
+		console.log(
+			'components/core/cards/CardSticker.js #renders this.props.skillTypes[0] >>>',
+			this.props.skillTypes[0]
+		);
 
 		return (
 			<div className="card-sticker">

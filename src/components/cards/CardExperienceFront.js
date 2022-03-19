@@ -34,7 +34,7 @@ class CardExperienceFront extends Component {
 				{this.props.datas.clients.length === 1 ? (
 					<>
 						{/**  Company and client  **/}
-						<div className="width-12 height-3">
+						<div className="width-12 height-3 company">
 							<h3>{this.props.datas.company.name}</h3>
 						</div>
 						<div className="width-2 height-3">{/*empty*/}</div>
@@ -49,9 +49,11 @@ class CardExperienceFront extends Component {
 							/>
 						</div>
 						<div className="width-2 height-3">{/*empty*/}</div>
-						<div className="width-12 height-3">
-							<span>Client : </span>
-							<h3>{this.props.datas.clients[0].name}</h3>
+						<div className="width-12 height-3 company">
+							<h3>
+								<span>Client :</span>{' '}
+								{this.props.datas.clients[0].name}
+							</h3>
 						</div>
 						<div className="width-2 height-3">{/*empty*/}</div>
 						<div className="width-8 height-3 container-up logo">
@@ -69,7 +71,7 @@ class CardExperienceFront extends Component {
 				) : (
 					<>
 						{/**  Company only  **/}
-						<div className="width-12 height-4">
+						<div className="width-12 height-4 company">
 							<h3>{this.props.datas.company.name}</h3>
 						</div>
 						<div className="width-2 height-8">{/*empty*/}</div>

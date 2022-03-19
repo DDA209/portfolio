@@ -58,6 +58,7 @@ class CardExperienceBack extends Component {
 									)}
 									{this.props.datas.skills.hardSkills.map(
 										(skillGroup) => {
+											const { groupName } = skillGroup;
 											return skillGroup.skills.map(
 												(skill, index) => {
 													return (
@@ -65,6 +66,9 @@ class CardExperienceBack extends Component {
 															<Badge
 																key={index}
 																type="skillTechnic"
+																group={
+																	groupName
+																}
 															>
 																{skill}
 															</Badge>

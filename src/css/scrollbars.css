@@ -4,8 +4,12 @@ body {
 
 main,
 .articles {
-	overflow-y: auto;
 	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.slider {
+	overflow: hidden;
 }
 
 main {
