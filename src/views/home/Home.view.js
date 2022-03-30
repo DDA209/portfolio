@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import Education from '../education/Education.view';
 import ExperiencesView from '../experiences/Experiences.view';
 import FooterMain from '../footer/FooterMain';
 import PresentationView from '../presentation/Presentation.view';
@@ -11,6 +12,7 @@ class HomeView extends Component {
 			<div id="home">
 				<PresentationView />
 				<StackView />
+				<Education />
 				<ExperiencesView />
 				<FooterMain />
 			</div>

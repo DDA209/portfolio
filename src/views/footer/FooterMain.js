@@ -2,16 +2,38 @@ import { Component } from 'react';
 import './css/footerMain.css';
 
 class FooterMain extends Component {
+	socials = [
+		{ name: 'LinkedIn', link: '', icon: '/images/icons/icon-linkedin.svg' },
+		{ name: 'GitHub', link: '', icon: '/images/icons/icon-github.svg' },
+	];
+	contacts = [
+		{ type: '', content: '', icon: '/images/icons/icon-mail.svg' },
+		// {type:"Téléphone", content:"+33(0)6........", icon:"/images/icons/icon-phone.svg"},
+	];
 	render() {
 		return (
-			<footer>
-				<div id="footer-socials" className="socials">
-					<ul>
-						<li>LinkedIn</li>
-						<li>GitHub</li>
-					</ul>
-				</div>
-				<div id="sitemap"></div>
+			<footer id="footer">
+				<div id="contact"></div>
+
+				{this.socials.length > 0 && (
+					<div className="socials">
+						<ul>
+							{this.socials.map((social, key) => {
+								return (
+									<li key={key}>
+										<a href={social.link}>
+											<img
+												className="footerIcon"
+												src={social.icon}
+												alt={`Icon de ${social.link}`}
+											/>
+										</a>
+									</li>
+								);
+							})}
+						</ul>
+					</div>
+				)}
 			</footer>
 		);
 	}

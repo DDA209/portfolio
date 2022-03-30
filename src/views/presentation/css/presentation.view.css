@@ -3,16 +3,36 @@
 }
 
 .presentaion-article {
-	width: calc(33vw - 3rem);
+	/* width: calc(33vw - 3rem); */
+	width: calc(75vw - 3rem);
 	padding: 0 1rem;
+	margin: 0 auto;
+}
+
+#presentation .companies {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+#presentation img.companie-logo {
+	max-height: 3rem;
+	max-width: 9rem;
+	margin: 1rem;
 }
 
 @media screen and (max-width: 768px) {
 	.presentaion-article {
-		width: calc(100vw - 6rem);
+		width: calc(100vw - 12rem);
 		padding: 1rem 1rem;
 	}
 	#presentation > div {
 		display: block;
+	}
+}
+@media screen and (max-width: 384px) {
+	.presentaion-article {
+		width: calc(100vw - 2rem);
 	}
 }

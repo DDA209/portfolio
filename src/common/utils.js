@@ -17,7 +17,7 @@ const utils = {
 		const newDate = new Date(date).toDateString();
 		const monthShort = newDate.split(' ')[1];
 		const month = monthTable[monthShort];
-		console.log('common/utils.js #month newDate >>>', newDate);
+		// console.log('common/utils.js #month newDate >>>', newDate);
 		return month;
 	},
 

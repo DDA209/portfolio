@@ -35,18 +35,7 @@ class ExperiencesView extends Component {
 					],
 					dateStart: '06/28/2021',
 					dateEnd: Date.now(),
-					clients: [
-						// {
-						// 	name: 'clientname',
-						// 	activityArea: 'activité',
-						// 	logo: '/images/companies/logo-itce.jpg',
-						// },
-						// {
-						// 	name: '',
-						// 	activityArea: '',
-						// 	logo: '',
-						// },
-					],
+					clients: [],
 					descriptions: {
 						full: [
 							'Accompagner les stagiaires dans leur apprentissage du développement',
@@ -132,18 +121,7 @@ class ExperiencesView extends Component {
 					],
 					dateStart: '11/01/2020',
 					dateEnd: '05/01/2021',
-					clients: [
-						// {
-						// 	name: 'clientname',
-						// 	activityArea: 'activité',
-						// 	logo: '/images/companies/logo-itce.jpg',
-						// },
-						// {
-						// 	name: '',
-						// 	activityArea: '',
-						// 	logo: '',
-						// },
-					],
+					clients: [],
 					descriptions: {
 						full: [
 							"Création d'une application en totale autonomie",
@@ -234,17 +212,6 @@ class ExperiencesView extends Component {
 							activityArea: 'Bancaire, monétique',
 							logo: '/images/companies/logo-transactis.png',
 						},
-						// {
-						// 	name: 'Schmidt Groupe',
-						// 	activityArea:
-						// 		'Industrie du meubles',
-						// 	logo: '/images/companies/logo-schmidt.png',
-						// },
-						// {
-						// 	name: 'Novartis',
-						// 	activityArea: 'Industrie bio-pharmaceutique',
-						// 	logo: '/images/companies/logo-novartis.png',
-						// },
 					],
 					descriptions: {
 						full: [
@@ -323,17 +290,6 @@ class ExperiencesView extends Component {
 							activityArea: 'Bancaire, monétique',
 							logo: '/images/companies/logo-schmidt.png',
 						},
-						// {
-						// 	name: 'Schmidt Groupe',
-						// 	activityArea:
-						// 		'Industrie du meubles',
-						// 	logo: '/images/companies/logo-schmidt.png',
-						// },
-						// {
-						// 	name: 'Novartis',
-						// 	activityArea: 'Industrie bio-pharmaceutique',
-						// 	logo: '/images/companies/logo-novartis.png',
-						// },
 					],
 					descriptions: {
 						full: [
@@ -366,9 +322,9 @@ class ExperiencesView extends Component {
 							{
 								groupName: 'hardware',
 								skills: [
-									'Usines de meubles',
 									'PC',
 									'Lecteurs codes-barres',
+									'Usines de meubles',
 								],
 							},
 						],
@@ -389,17 +345,17 @@ class ExperiencesView extends Component {
 				},
 			],
 		};
-		// this.experiencesViewAdd = this.experiencesAdd.bind(this);
 	}
 
 	experiences() {
 		return (
 			<section id="experiences">
-				<h2>Mes expériences</h2>
+				<h2>Mes expériences significatives</h2>
 				<div className="cards-container">
-					{this.state.experiences.map((experience) => {
+					{this.state.experiences.map((experience, key) => {
 						return (
 							<Card
+								key={key}
 								context="consultation"
 								type="experience"
 								datas={experience}

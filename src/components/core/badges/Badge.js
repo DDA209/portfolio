@@ -10,10 +10,10 @@ const Badge = styled.div`
 	color: ${(props) => props.colorContent || '#202020ff'} !important;
 	font-size: 0.8rem !important;
 	height: 1rem !important;
-	border-radius: 0.6rem !important;
-	padding: 0rem 0.5rem 0.15rem 0.5rem !important;
-	font-weight: 600 !important;
-	margin: 0.05rem 0.5rem 0.15rem 0rem !important;
+	border-radius: 0rem !important;
+	padding: 0.3rem 0.7rem 0.45rem 0.7rem !important;
+	font-weight: 500 !important;
+	margin: 0.15rem 0.15rem 0.15rem 0.15rem !important;
 	display: inline-block !important;
 `;
 /**
@@ -30,40 +30,40 @@ const Badge = styled.div`
  */
 const colors = {
 	skillTechnic: {
-		colorBackground: ['#90e0e8ff', '#90d8e0ff', 0],
-		colorContent: '#000000ff',
+		colorBackground: ['#f0f0f0ff', '#f0f0f0ff', 0],
+		colorContent: '#595c5fff',
 	},
 	languages: {
-		colorBackground: ['#90e0e8ff', '#90e0e8ff', 0],
-		colorContent: '#000000ff',
+		colorBackground: ['#f0f0f0ff', '#f0f0f0ff', 0],
+		colorContent: '#595c5fff',
 	},
 	tools: {
-		colorBackground: ['#c02000ff', '#c02000ff', 0],
-		colorContent: '#ffffffff',
+		colorBackground: ['#f0f0f0ff', '#f0f0f0ff', 0],
+		colorContent: '#595c5fff',
 	},
 	communication: {
-		colorBackground: ['#009000ff', '#009000ff', 0],
-		colorContent: '#ffffffff',
+		colorBackground: ['#f0f0f0ff', '#f0f0f0ff', 0],
+		colorContent: '#595c5fff',
 	},
 	os: {
-		colorBackground: ['#0050d0ff', '#0050d0ff', 0],
-		colorContent: '#ffffffff',
+		colorBackground: ['#f0f0f0ff', '#f0f0f0ff', 0],
+		colorContent: '#595c5fff',
 	},
 	hardware: {
-		colorBackground: ['#ffd810ff', '#ffd810ff', 0],
-		colorContent: '#000000ff',
+		colorBackground: ['#f0f0f0ff', '#f0f0f0ff', 0],
+		colorContent: '#595c5fff',
 	},
 	skillSoft: {
-		colorBackground: ['#b4e0c4ff', '#90d8e0ff', 0],
-		colorContent: '#000000ff',
+		colorBackground: ['#f0f0f0ff', '#f0f0f0ff', 0],
+		colorContent: '#595c5fff',
 	},
 	skillSocial: {
-		colorBackground: ['#e0d080ff', '#90d8e0ff', 0],
-		colorContent: '#000000ff',
+		colorBackground: ['#f0f0f0ff', '#f0f0f0ff', 0],
+		colorContent: '#595c5fff',
 	},
 	action: {
-		colorBackground: ['#000080ff', '#000080ff', 0],
-		colorContent: '#ffffffff',
+		colorBackground: ['#f0f0f0ff', '#f0f0f0ff', 0],
+		colorContent: '#595c5fff',
 	},
 };
 
@@ -79,10 +79,10 @@ const colors = {
  */
 class BadgeDefault extends Component {
 	render() {
-		console.log(
-			'components/core/badges/Badges.js #render this.props.group >>>',
-			this.props.group
-		);
+		// console.log(
+		// 	'components/core/badges/Badges.js #render this.props.group >>>',
+		// 	this.props.group
+		// );
 		return (
 			<>
 				<Badge

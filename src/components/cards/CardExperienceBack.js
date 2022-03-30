@@ -40,8 +40,8 @@ class CardExperienceBack extends Component {
 							</h5>
 							<article>
 								{this.props.datas.descriptions.full.map(
-									(achievement, index) => {
-										return <p key={index}>{achievement}</p>;
+									(achievement, key) => {
+										return <p key={key}>{achievement}</p>;
 									}
 								)}
 							</article>
@@ -60,19 +60,15 @@ class CardExperienceBack extends Component {
 										(skillGroup) => {
 											const { groupName } = skillGroup;
 											return skillGroup.skills.map(
-												(skill, index) => {
+												(skill, key) => {
 													return (
-														<>
-															<Badge
-																key={index}
-																type="skillTechnic"
-																group={
-																	groupName
-																}
-															>
-																{skill}
-															</Badge>
-														</>
+														<Badge
+															key={key}
+															type="skillTechnic"
+															group={groupName}
+														>
+															{skill}
+														</Badge>
 													);
 												}
 											);
@@ -102,7 +98,9 @@ class CardExperienceBack extends Component {
 						</div>
 						<div className="width-9 height-1">
 							<span>Client : </span>
-							<h6>{this.props.datas.clients[0].name}</h6>
+							<h6 className="client">
+								{this.props.datas.clients[0].name}
+							</h6>
 						</div>
 						<div className="width-3 height-1 logo">
 							<img

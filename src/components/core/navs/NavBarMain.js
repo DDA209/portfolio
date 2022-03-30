@@ -46,7 +46,7 @@ class NavBarMain extends Component {
 								<a href="#experiences">Expériences</a>
 							</li>
 							<li>
-								<a href="#contact">Me contacter</a>
+								<a href="#footer-socials">Me contacter</a>
 							</li>
 						</ul>
 					</div>

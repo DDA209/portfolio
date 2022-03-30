@@ -38,24 +38,30 @@ h3,
 h4,
 h5,
 h6 {
-	display: inline;
+	display: block;
 	/* font-family: cinzel, Times, serif; */
 }
 
 h2,
 h3 {
-	margin: 1rem 0;
+	margin: 2rem 0 1.5rem 0;
 }
 
 /* h6 {
 } */
 
 section {
-	margin: 10rem 3vw;
-	padding: 4rem 0.5rem;
+	margin: 10rem 15vw;
+	padding: 4rem 2vw;
 	align-content: center;
 	border-radius: 1rem;
 	background-color: #ffffffff;
+}
+
+#presentation,
+#education {
+	padding-left: 8vw;
+	padding-right: 8vw;
 }
 
 ul > li,
@@ -72,7 +78,7 @@ h2 {
 	font-size: 1.7rem;
 }
 h3 {
-	font-size: 1.6rem;
+	font-size: 1.5rem;
 }
 h4 {
 	font-size: 1.35rem;
@@ -233,5 +239,18 @@ section:nth-child(odd) {
 	width: calc(100% - (2 * 0.35rem));
 }
 
-@media screen and (min-width < 900) {
+@media screen and (max-width: 768px) {
+	section {
+		margin: 5rem 3vw;
+		padding: 4rem 5vw;
+	}
+}
+@media screen and (max-width: 384px) {
+	section {
+		margin: 5rem 0;
+		padding: 1rem 0rem;
+		align-content: center;
+		border-radius: 0;
+		background-color: #ffffffff;
+	}
 }

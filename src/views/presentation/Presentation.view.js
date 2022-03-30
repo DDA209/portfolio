@@ -4,71 +4,93 @@ import './css/presentation.view.css';
 // import './home.css';
 
 class PresentationView extends Component {
+	companiesLogos = [
+		'logo-konexio.png',
+		'logo-mpmc-wordmark.png',
+		'logo-capgemini.png',
+		'logo-transactis.png',
+		'logo-societe-generale.png',
+		'logo-lbp.svg',
+		'logo-cdn.svg',
+		'logo-schmidt.png',
+		'logo-novartis.png',
+		'logo-cd-68.png',
+		'logo-pole-emploi.png',
+		'logo-itce.jpg',
+		'logo-air-liquide.jpg',
+		'logo-mars-food.png',
+		'logo-pwc.png',
+		'logo-compaq.png',
+	];
 	render() {
 		return (
 			<section id="presentation">
 				<h2>À propos de moi</h2>
 				<div>
 					<div className="presentaion-article">
-						<h3>D'où je viens</h3>
+						{/* <h3>D'où je viens</h3>
+						<p></p> */}
 						<p>
-							Parler de l'expérience dans le sercice dans une
-							grande ESN. Décrire mes belles années, surtout des
-							senssations et sentiments. Mes réussites mes
-							renconntres.
+							Plus de <em>20 belles années</em> dans la plus
+							grande ESN Française, ont contribuées à faire de moi
+							un professionnel aigusé et adaptable.
 						</p>
 						<p>
-							Donner des exemples rentrer dans des éléments plus
-							techniques, formations, certifications. Rester sur
-							un plan hard skills Donner des exemples rentrer dans
-							des éléments plus techniques, formations,
-							certifications. Rester sur un plan hard skills
-						</p>
-						<p>
-							Finir sur une partie mettant en exergue les points
-							softskill et madskill
+							Auprès de clients variées grands comptes{' '}
+							<em>
+								(Société Générale, PriceWaterhouseCoopers,
+								Novartis...)
+							</em>
+							, je me suis exercé à nombre de métiers des systèmes
+							de l'information{' '}
+							<em>
+								(Technicien systèmes et réseaux, intégrateur
+								d'applicaions, analyste dévelopeur...)
+							</em>
+							, dans de nombreux secteurs d'activité et auprès de
+							publics parfois très éloignés{' '}
+							<em>
+								(VIP, personnel administratif, ouvriers, chefs
+								de projet...)
+							</em>
 						</p>
 					</div>
-					<div className="presentaion-article">
+					{/* <div className="presentaion-article">
 						<h3>Ce que je fais</h3>
 						<p>
-							Parler de l'expérience dans le sercice dans une
-							grande ESN. Décrire mes belles années, surtout des
-							senssations et sentiments. Mes réussites mes
-							renconntres.
+						
 						</p>
 						<p>
-							Donner des exemples rentrer dans des éléments plus
-							techniques, formations, certifications. Rester sur
-							un plan hard skills{' '}
+							
 						</p>
 						<p>
-							Finir sur une partie mettant en exergue les points
-							softskill et madskill Finir sur une partie mettant
-							en exergue les points softskill et madskill
+							
 						</p>
 					</div>
 					<div className="presentaion-article">
 						<h3>Vers où je veux aller</h3>
 						<p>
-							Parler de l'expérience dans le sercice dans une
-							grande ESN. Décrire mes belles années, surtout des
-							senssations et sentiments. Mes réussites mes
-							renconntres. Parler de l'expérience dans le sercice
-							dans une grande ESN. Décrire mes belles années,
-							surtout des senssations et sentiments. Mes réussites
-							mes renconntres.
+							
 						</p>
 						<p>
-							Donner des exemples rentrer dans des éléments plus
-							techniques, formations, certifications. Rester sur
-							un plan hard skills{' '}
+							
 						</p>
 						<p>
-							Finir sur une partie mettant en exergue les points
-							softskill et madskill
+						
 						</p>
-					</div>
+					</div> */}
+				</div>
+				<h2>Nous avons travaillé ensemble</h2>
+				<div className="companies">
+					{this.companiesLogos.map((companieLogo) => {
+						return (
+							<img
+								className="companie-logo"
+								src={`/images/companies/${companieLogo}`}
+								alt="logo"
+							/>
+						);
+					})}
 				</div>
 			</section>
 		);
