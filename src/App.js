@@ -78,10 +78,7 @@ class App extends Component {
 					<Header
 						moveProfilePicture={this.state.moveProfilePicture}
 					/>
-
-					<Routes>
-						<Route path="/" element={<HomeView />} />
-					</Routes>
+					<HomeView />
 				</main>
 			</>
 		);
