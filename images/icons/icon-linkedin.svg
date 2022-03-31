@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="54"
+   height="54"
+   viewBox="0 0 14.2875 14.2875"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="linkedin-icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="6.1290685"
+     inkscape:cx="29.368248"
+     inkscape:cy="33.691906"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="m 11.641665,3.3072921 v 7.6729159 a 0.66145833,0.66145833 0 0 1 -0.66146,0.661459 H 3.3072951 a 0.66145833,0.66145833 0 0 1 -0.66146,-0.661459 V 3.3072921 a 0.66145833,0.66145833 0 0 1 0.66146,-0.661459 h 7.6729099 a 0.66145833,0.66145833 0 0 1 0.66146,0.661459 z m -6.3499998,2.778125 h -1.32292 V 10.31875 h 1.32292 z m 0.11906,-1.455209 a 0.762,0.762 0 0 0 -0.7567,-0.767291 h -0.0238 a 0.7672917,0.7672917 0 0 0 0,1.534583 v 0 a 0.762,0.762 0 0 0 0.78052,-0.7434789 z m 4.9080198,3.116792 c 0,-1.272646 -0.8096199,-1.767417 -1.6139498,-1.767417 a 1.508125,1.508125 0 0 0 -1.3388001,0.682625 h -0.037 v -0.576791 h -1.24354 V 10.31875 h 1.32292 V 8.0671461 a 0.87841667,0.87841667 0 0 1 0.7937501,-0.947209 h 0.0503 c 0.4206899,0 0.7328899,0.264584 0.7328899,0.931334 V 10.31875 h 1.3229199 z"
+       fill="currentColor"
+       id="path826"
+       style="stroke-width:0.264583" />
+  </g>
+</svg>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="85mm"
+   height="85mm"
+   viewBox="0 0 85 85"
+   version="1.1"
+   id="svg1018"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="dp.svg"
+   inkscape:export-filename="D:\developpement\mon-cv-full-stack\portfolio-front\public\images\icons\dp.png"
+   inkscape:export-xdpi="76.498817"
+   inkscape:export-ydpi="76.498817"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1020"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.76613358"
+     inkscape:cx="-91.367879"
+     inkscape:cy="265.61948"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1015" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.598;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1454"
+       cx="42.5"
+       cy="-42.5"
+       transform="rotate(90)"
+       r="42.5" />
+    <g
+       inkscape:groupmode="layer"
+       id="layer2"
+       inkscape:label="Layer 1"
+       style="display:none">
+      <g
+         id="g1216"
+         transform="translate(2.6436001e-7,6.4468384e-4)">
+        <rect
+           style="opacity:1;fill:#10154a;fill-opacity:1;stroke:none;stroke-width:2.82272;stroke-linecap:round;stroke-linejoin:round"
+           id="rect1274"
+           width="85"
+           height="38.081001"
+           x="-2.6436001e-07"
+           y="46.918354" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:12.3472px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:2.26219px;text-anchor:middle;fill:#e7e7e7;fill-opacity:1;stroke:#e7e7e7;stroke-width:0.865;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="42.036968"
+           y="62.814217"
+           id="text8209"><tspan
+             sodipodi:role="line"
+             id="tspan8207"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.3472px;font-family:Comfortaa;-inkscape-font-specification:'Comfortaa, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#e7e7e7;fill-opacity:1;stroke:#e7e7e7;stroke-width:0.865;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             x="42.036968"
+             y="62.814217">Didier</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.3472px;font-family:Comfortaa;-inkscape-font-specification:'Comfortaa, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#e7e7e7;fill-opacity:1;stroke:#e7e7e7;stroke-width:0.865;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             x="43.168064"
+             y="78.623192"
+             id="tspan8211">PASCAREL</tspan></text>
+      </g>
+    </g>
+    <path
+       style="fill:#10154a;fill-opacity:1;stroke:none;stroke-width:0.0329311;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 15.392548,59.458524 C 33.471069,59.841577 59.061428,34.513839 30.126237,27.799748 -0.34653784,21.574234 0.38899104,35.735342 9.9500963,41.919924 19.472161,48.079253 19.31387,56.484953 21.471297,55.576755 c 2.628238,-1.106393 0.898759,-17.014144 -1.033913,-22.593552 -0.554541,-1.600901 -2.635556,-1.937438 -3.140903,-0.569859 -1.460895,3.953504 1.162857,16.950189 1.162857,16.950189 0,0 0.649457,-1.475794 -10.0032697,-9.396921 C 1.6925935,34.937445 8.0495094,27.572484 29.458681,31.925151 49.207293,37.762697 24.566596,57.35426 12.693515,57.360874 0.80243179,57.367498 10.526051,47.981425 10.526051,47.981425 33.536955,25.548211 92.009809,54.916002 79.9022,31.369432 72.805331,17.567624 36.330322,31.305917 47.324686,41.2977 c 6.594538,5.99318 14.37017,18.026841 15.321955,17.663517 0.856163,-0.326823 -3.457574,-18.748144 -3.469643,-22.72189 -0.0085,-2.796299 -3.995089,-3.011888 -4.323788,-0.493066 -0.518842,3.975888 1.771815,14.746094 1.771815,14.746094 0,0 -6.040827,-7.19952 -8.006257,-8.846409 -8.790573,-7.365865 23.261097,-17.785625 27.871893,-7.905122 5.005415,10.726133 -46.472992,-6.800757 -68.2709885,15.56332 -1.835032,1.882686 -7.27891574,9.932464 7.1728755,10.154351 z"
+       id="path857-0-5"
+       sodipodi:nodetypes="ccsssscscscssssscssscc"
+       inkscape:export-filename="D:\developpement\mon-cv-full-stack\portfolio-front\public\images\icons\path857-0-5.png"
+       inkscape:export-xdpi="76.498817"
+       inkscape:export-ydpi="76.498817" />
+  </g>
+</svg>
