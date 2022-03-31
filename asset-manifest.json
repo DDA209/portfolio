@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2f0a601c.chunk.css",
-    "main.js": "/portfolio/static/js/main.1c6f4049.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.1c6f4049.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.33466133.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.33466133.js.map",
-    "static/js/2.7cf64b04.chunk.js": "/portfolio/static/js/2.7cf64b04.chunk.js",
-    "static/js/2.7cf64b04.chunk.js.map": "/portfolio/static/js/2.7cf64b04.chunk.js.map",
-    "static/js/3.917a0b06.chunk.js": "/portfolio/static/js/3.917a0b06.chunk.js",
-    "static/js/3.917a0b06.chunk.js.map": "/portfolio/static/js/3.917a0b06.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "static/css/main.2f0a601c.chunk.css.map": "/portfolio/static/css/main.2f0a601c.chunk.css.map",
-    "static/js/2.7cf64b04.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7cf64b04.chunk.js.LICENSE.txt",
-    "static/media/style.css": "/portfolio/static/media/Nunito-VariableFont_wght.e832734f.ttf",
-    "static/media/header.css": "/portfolio/static/media/work.4ab66d63.jfif"
+    "main.css": "./https://dda209.github.io/portfolio/static/css/main.7125d4f5.chunk.css",
+    "main.js": "./https://dda209.github.io/portfolio/static/js/main.1c6f4049.chunk.js",
+    "main.js.map": "./https://dda209.github.io/portfolio/static/js/main.1c6f4049.chunk.js.map",
+    "runtime-main.js": "./https://dda209.github.io/portfolio/static/js/runtime-main.cd4cc11d.js",
+    "runtime-main.js.map": "./https://dda209.github.io/portfolio/static/js/runtime-main.cd4cc11d.js.map",
+    "static/js/2.e96fff4a.chunk.js": "./https://dda209.github.io/portfolio/static/js/2.e96fff4a.chunk.js",
+    "static/js/2.e96fff4a.chunk.js.map": "./https://dda209.github.io/portfolio/static/js/2.e96fff4a.chunk.js.map",
+    "static/js/3.917a0b06.chunk.js": "./https://dda209.github.io/portfolio/static/js/3.917a0b06.chunk.js",
+    "static/js/3.917a0b06.chunk.js.map": "./https://dda209.github.io/portfolio/static/js/3.917a0b06.chunk.js.map",
+    "index.html": "./https://dda209.github.io/portfolio/index.html",
+    "static/css/main.7125d4f5.chunk.css.map": "./https://dda209.github.io/portfolio/static/css/main.7125d4f5.chunk.css.map",
+    "static/js/2.e96fff4a.chunk.js.LICENSE.txt": "./https://dda209.github.io/portfolio/static/js/2.e96fff4a.chunk.js.LICENSE.txt",
+    "static/media/style.css": "./https://dda209.github.io/portfolio/static/media/Nunito-VariableFont_wght.e832734f.ttf",
+    "static/media/header.css": "./https://dda209.github.io/portfolio/static/media/work.4ab66d63.jfif"
   },
   "entrypoints": [
-    "static/js/runtime-main.33466133.js",
-    "static/js/2.7cf64b04.chunk.js",
-    "static/css/main.2f0a601c.chunk.css",
+    "static/js/runtime-main.cd4cc11d.js",
+    "static/js/2.e96fff4a.chunk.js",
+    "static/css/main.7125d4f5.chunk.css",
     "static/js/main.1c6f4049.chunk.js"
   ]
 }
