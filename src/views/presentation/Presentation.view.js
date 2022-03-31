@@ -86,7 +86,7 @@ class PresentationView extends Component {
 						return (
 							<img
 								className="companie-logo"
-								src={`/images/companies/${companieLogo}`}
+								src={`${this.props.path}/images/companies/${companieLogo}`}
 								alt="logo"
 							/>
 						);

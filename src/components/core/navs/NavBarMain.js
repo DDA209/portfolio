@@ -14,6 +14,10 @@ class NavBarMain extends Component {
 
 	render() {
 		// console.log(' this.state.navModify >>>', this.props.navModify);
+		console.log(
+			'components/core/navs/NavBarMain.js #render this.props.path >>>',
+			this.props.path
+		);
 		return (
 			<>
 				<nav className={'main' + this.props.navModify}>
@@ -21,12 +25,15 @@ class NavBarMain extends Component {
 						{/* <h1>Didier PASCAREL</h1> */}
 						<img
 							className="nameFull"
-							src="/images/didier-pascarel-bold.svg"
+							src={
+								this.props.path +
+								'/images/didier-pascarel-bold.svg'
+							}
 							alt="Didier PASCAREL écrit de façon manuscrite"
 						/>
 						<img
 							className="initials"
-							src="/images/initials.svg"
+							src={this.props.path + '/images/initials.svg'}
 							alt="D P écrit de façon manuscrite"
 						/>
 					</Link>

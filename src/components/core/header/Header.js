@@ -10,6 +10,7 @@ class Header extends Component {
 				<header>
 					<ProfilePicture
 						moveProfilePicture={this.props.moveProfilePicture}
+						path={this.props.path}
 					/>
 				</header>
 			</>

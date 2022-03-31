@@ -10,6 +10,8 @@ import './components/core/images/css/images.css';
 import HomeView from './views/home/Home.view';
 import Preload from './components/preload/Preload';
 
+const path = process.env.PUBLIC_URL;
+
 class App extends Component {
 	constructor(props) {
 		super(props);
@@ -25,13 +27,13 @@ class App extends Component {
 		const main = document.querySelector('main');
 
 		main.addEventListener('scroll', (event) => {
-			// console.log('app.js #componentDidMount event >>>', event);
+			console.log('app.js #componentDidMount event >>>', event);
 			const scrollYValue = main.scrollTop;
 			const scrollBreackPoint = 300;
-			// console.log(
-			// 	'app.js #componentDidMount scrollYVAlue >>>',
-			// 	scrollYValue
-			// );
+			console.log(
+				'app.js #componentDidMount scrollYVAlue >>>',
+				scrollYValue
+			);
 			document.querySelector(
 				'main > #background'
 			).style.cssText = `background-position-y = -${scrollYValue / 2}`;
@@ -69,16 +71,25 @@ class App extends Component {
 	}
 
 	render() {
+		console.log('app.js path >>>', path);
 		return (
 			<>
-				<Preload />
+				<Preload path={path} />
 
-				<NavBarMain navModify={this.state.navModify} />
+				<NavBarMain navModify={this.state.navModify} path={path} />
 				<main>
 					<Header
 						moveProfilePicture={this.state.moveProfilePicture}
+						path={path}
 					/>
-					<HomeView />
+
+					<Routes>
+						<Route
+							path={`${path}/`}
+							// path={`/`}
+							element={<HomeView path={path} />}
+						/>
+					</Routes>
 				</main>
 			</>
 		);

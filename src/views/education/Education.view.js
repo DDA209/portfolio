@@ -16,15 +16,20 @@ class Education extends Component {
 					school: {
 						name: 'Konexio',
 						url: 'https://www.konexio.eu',
-						logo: '/images/companies/logo-konexio.png',
+						logo:
+							this.props.path +
+							'/images/companies/logo-konexio.png',
 					},
 					graduation: {
 						name: 'Développeur web et web mobile',
 						modals: [
 							{
 								type: 'image',
-								url: '/images/certifications/RNCP31114.jpg',
+								url:
+									this.props.path +
+									'/images/certifications/RNCP31114.jpg',
 								thumbnail:
+									this.props.path +
 									'/images/certifications/RNCP31114-icon.jpg',
 								alt: 'diplôme Développeur Web et Web mobile',
 							},
@@ -79,7 +84,7 @@ class Education extends Component {
 					school: {
 						name: 'IB formation',
 						url: 'https://www.cegos.fr',
-						logo: '/images/companies/logo-ib.png',
+						logo: this.props.path + '/images/companies/logo-ib.png',
 					},
 					graduation: null,
 					grade: null,
@@ -137,7 +142,9 @@ class Education extends Component {
 					school: {
 						name: 'Capgemini',
 						url: 'https://www.capgemini.com',
-						logo: '/images/companies/logo-capgemini.png',
+						logo:
+							this.props.path +
+							'/images/companies/logo-capgemini.png',
 					},
 					graduation: null,
 					grade: null,
@@ -159,7 +166,9 @@ class Education extends Component {
 					school: {
 						name: 'Orsys',
 						url: 'https://www.orsys.com',
-						logo: '/images/companies/logo-orsys.png',
+						logo:
+							this.props.path +
+							'/images/companies/logo-orsys.png',
 					},
 					graduation: null,
 					grade: null,
@@ -212,7 +221,7 @@ class Education extends Component {
 					school: {
 						name: 'IB formation',
 						url: 'https://www.cegos.fr',
-						logo: '/images/companies/logo-ib.png',
+						logo: this.props.path + '/images/companies/logo-ib.png',
 					},
 					graduation: null,
 					grade: null,
@@ -242,7 +251,9 @@ class Education extends Component {
 					school: {
 						name: 'Learning Tree',
 						url: null,
-						logo: '/images/companies/logo-learning-tree.png',
+						logo:
+							this.props.path +
+							'/images/companies/logo-learning-tree.png',
 					},
 					graduation: null,
 					grade: null,

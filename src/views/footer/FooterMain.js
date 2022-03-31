@@ -6,19 +6,19 @@ class FooterMain extends Component {
 		{
 			name: 'LinkedIn',
 			link: 'https://www.linkedin.com/in/didier-pascarel/',
-			icon: '/images/icons/icon-linkedin.svg',
+			icon: this.props.path + '/images/icons/icon-linkedin.svg',
 		},
 		{
 			name: 'GitHub',
 			link: 'https://github.com/DDA209',
-			icon: '/images/icons/icon-github.svg',
+			icon: this.props.path + '/images/icons/icon-github.svg',
 		},
 	];
 	contacts = [
 		{
 			type: 'mail',
 			content: 'didier.pascarel1@gmail.com',
-			icon: '/images/icons/icon-email.svg',
+			icon: this.props.path + '/images/icons/icon-email.svg',
 		},
 		// {type:"Téléphone", content:"+33(0)6........", icon:"/images/icons/icon-phone.svg"},
 	];

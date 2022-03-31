@@ -12,7 +12,9 @@ class StackView extends Component {
 					name: 'mongoDB',
 					types: ['technic', 'database'],
 					picture: {
-						url: '/images/stack/logo-mongodb-wordmark.svg',
+						url:
+							this.props.path +
+							'/images/stack/logo-mongodb-wordmark.svg',
 						description: 'logo of mongo DB',
 					},
 				},
@@ -20,7 +22,7 @@ class StackView extends Component {
 					name: 'Express.JS',
 					types: ['technic', 'framework'],
 					picture: {
-						url: '/images/stack/logo-express.svg',
+						url: this.props.path + '/images/stack/logo-express.svg',
 						description: 'logo of Express.JS',
 					},
 				},
@@ -28,7 +30,7 @@ class StackView extends Component {
 					name: 'React',
 					types: ['technic', 'framework'],
 					picture: {
-						url: '/images/stack/logo-react.svg',
+						url: this.props.path + '/images/stack/logo-react.svg',
 						description: 'logo of react',
 					},
 				},
@@ -36,7 +38,9 @@ class StackView extends Component {
 					name: 'Node',
 					types: ['technic', 'framework'],
 					picture: {
-						url: '/images/stack/logo-node-wordmark.svg',
+						url:
+							this.props.path +
+							'/images/stack/logo-node-wordmark.svg',
 						description: 'logo of Node',
 					},
 				},
@@ -44,7 +48,7 @@ class StackView extends Component {
 					name: 'HTML 5',
 					types: ['technic', 'language'],
 					picture: {
-						url: '/images/stack/logo-html5.svg',
+						url: this.props.path + '/images/stack/logo-html5.svg',
 						description: 'logo of HTML 5',
 					},
 				},
@@ -52,7 +56,7 @@ class StackView extends Component {
 					name: 'CSS 3',
 					types: ['technic', 'language'],
 					picture: {
-						url: '/images/stack/logo-css3.svg',
+						url: this.props.path + '/images/stack/logo-css3.svg',
 						description: 'logo of CSS 3',
 					},
 				},
@@ -60,7 +64,9 @@ class StackView extends Component {
 					name: 'JavaScript',
 					types: ['technic', 'language'],
 					picture: {
-						url: '/images/stack/logo-javascript.svg',
+						url:
+							this.props.path +
+							'/images/stack/logo-javascript.svg',
 						description: 'logo of JavaScript',
 					},
 				},
@@ -68,7 +74,9 @@ class StackView extends Component {
 					name: 'Bootstrap',
 					types: ['technic', 'framework'],
 					picture: {
-						url: '/images/stack/logo-bootstrap.svg',
+						url:
+							this.props.path +
+							'/images/stack/logo-bootstrap.svg',
 						description: 'logo of Bootstrap',
 					},
 				},
@@ -76,7 +84,7 @@ class StackView extends Component {
 					name: 'git',
 					types: ['technic', 'tools'],
 					picture: {
-						url: '/images/stack/logo-git.svg',
+						url: this.props.path + '/images/stack/logo-git.svg',
 						description: 'logo of git',
 					},
 				},
@@ -84,7 +92,7 @@ class StackView extends Component {
 					name: 'GitHub',
 					types: ['technic', 'tools'],
 					picture: {
-						url: '/images/stack/logo-github.svg',
+						url: this.props.path + '/images/stack/logo-github.svg',
 						description: 'logo of GitHub',
 					},
 				},
@@ -92,7 +100,7 @@ class StackView extends Component {
 					name: 'GitLab',
 					types: ['technic', 'tools'],
 					picture: {
-						url: '/images/stack/logo-gitlab.svg',
+						url: this.props.path + '/images/stack/logo-gitlab.svg',
 						description: 'logo of GitLab',
 					},
 				},
@@ -100,7 +108,7 @@ class StackView extends Component {
 					name: 'MDN',
 					types: ['technic', 'documentation'],
 					picture: {
-						url: '/images/stack/logo-mdn.svg',
+						url: this.props.path + '/images/stack/logo-mdn.svg',
 						description: 'logo of MDN',
 					},
 				},
@@ -108,7 +116,8 @@ class StackView extends Component {
 					name: 'mongoose',
 					types: ['technic', 'framework'],
 					picture: {
-						url: '/images/stack/logo-mongoose.svg',
+						url:
+							this.props.path + '/images/stack/logo-mongoose.svg',
 						description: 'logo of mongoose',
 					},
 				},
@@ -116,7 +125,7 @@ class StackView extends Component {
 					name: 'Gimp',
 					types: ['technic', 'Graphism'],
 					picture: {
-						url: '/images/stack/logo-gimp2.svg',
+						url: this.props.path + '/images/stack/logo-gimp2.svg',
 						description: 'logo of Gimp',
 					},
 				},
@@ -124,7 +133,8 @@ class StackView extends Component {
 					name: 'Inkscape',
 					types: ['technic', 'Graphism'],
 					picture: {
-						url: '/images/stack/logo-inkscape.svg',
+						url:
+							this.props.path + '/images/stack/logo-inkscape.svg',
 						description: 'logo of Inkscape',
 					},
 				},
@@ -132,7 +142,7 @@ class StackView extends Component {
 					name: 'Autoit',
 					types: ['technic', 'language'],
 					picture: {
-						url: '/images/stack/logo-autoit.svg',
+						url: this.props.path + '/images/stack/logo-autoit.svg',
 						description: 'logo of Autoit',
 					},
 				},

@@ -20,7 +20,9 @@ class ExperiencesView extends Component {
 					company: {
 						name: 'Konexio',
 						activityArea: 'Centre de formation',
-						logo: '/images/companies/logo-konexio.png',
+						logo:
+							this.props.path +
+							'/images/companies/logo-konexio.png',
 					},
 					locations: [
 						{
@@ -106,7 +108,8 @@ class ExperiencesView extends Component {
 					company: {
 						name: 'mes Producteurs mes Cuisiniers',
 						activityArea: 'Editeur Web',
-						logo: '/images/companies/logo-mpmc.png',
+						logo:
+							this.props.path + '/images/companies/logo-mpmc.png',
 					},
 					locations: [
 						{
@@ -191,7 +194,9 @@ class ExperiencesView extends Component {
 					company: {
 						name: 'Capgemini',
 						activityArea: 'Entreprise de services du numérique',
-						logo: '/images/companies/logo-capgemini.png',
+						logo:
+							this.props.path +
+							'/images/companies/logo-capgemini.png',
 					},
 					locations: [
 						{
@@ -210,7 +215,9 @@ class ExperiencesView extends Component {
 						{
 							name: 'Transactis',
 							activityArea: 'Bancaire, monétique',
-							logo: '/images/companies/logo-transactis.png',
+							logo:
+								this.props.path +
+								'/images/companies/logo-transactis.png',
 						},
 					],
 					descriptions: {
@@ -269,7 +276,9 @@ class ExperiencesView extends Component {
 					company: {
 						name: 'Capgemini',
 						activityArea: 'Entreprise de services du numérique',
-						logo: '/images/companies/logo-capgemini.png',
+						logo:
+							this.props.path +
+							'/images/companies/logo-capgemini.png',
 					},
 					locations: [
 						{
@@ -288,7 +297,9 @@ class ExperiencesView extends Component {
 						{
 							name: 'Schmidt Groupe',
 							activityArea: 'Bancaire, monétique',
-							logo: '/images/companies/logo-schmidt.png',
+							logo:
+								this.props.path +
+								'/images/companies/logo-schmidt.png',
 						},
 					],
 					descriptions: {

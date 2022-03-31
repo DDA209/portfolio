@@ -6,7 +6,7 @@ class Preload extends Component {
 		return (
 			<div id="loading">
 				<img
-					src="/images/didier-pascarel.svg"
+					src={`${this.props.path}/images/didier-pascarel.svg`}
 					alt="Didier PASCAREL écrit de façon manuscrite"
 				/>
 				<h2>Développeur Web</h2>

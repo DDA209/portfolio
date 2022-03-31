@@ -10,11 +10,11 @@ class HomeView extends Component {
 	render() {
 		return (
 			<div id="home">
-				<PresentationView />
-				<StackView />
-				<Education />
-				<ExperiencesView />
-				<FooterMain />
+				<PresentationView path={this.props.path} />
+				<StackView path={this.props.path} />
+				<Education path={this.props.path} />
+				<ExperiencesView path={this.props.path} />
+				<FooterMain path={this.props.path} />
 			</div>
 		);
 	}

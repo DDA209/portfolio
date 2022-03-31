@@ -11,8 +11,8 @@ class ProfilePicture extends Component {
 			<>
 				<img
 					id="picture-pofile"
-					src="/images/4web.jpg"
-					alt="Professional foto of Didier Pascarel"
+					src={`${this.props.path}/images/4web.jpg`}
+					alt="photographie de Didier Pascarel"
 					className={` ${this.props.moveProfilePicture}`}
 				/>
 			</>
