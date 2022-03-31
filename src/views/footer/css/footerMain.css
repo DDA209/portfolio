@@ -1,6 +1,28 @@
 footer {
-	background-color: #757979 !important;
+	background-color: #404959 !important;
+	color: #f0f8ffff;
 	margin: 0;
 	padding: 4rem 1rem;
 	align-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+footer .footer-icon {
+	height: 10rem;
+	width: 10rem;
+	filter: invert(100%) saturate(0%) brightness(1000%) contrast(1000%);
+}
+
+footer .contact {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+footer .contact h2 {
+	margin: -1.5rem 0 1.5rem 0;
 }

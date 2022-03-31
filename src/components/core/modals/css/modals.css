@@ -14,14 +14,13 @@
 	background-color: #000000a0;
 	backdrop-filter: blur(3px);
 	cursor: pointer;
-	border-radius: 50% 0 0 0;
 }
 
 #modal > * {
 	background-color: #ffffffff;
-	max-height: 90vh;
-	max-width: 90vw;
-	width: 80vw;
+	max-height: 95vh;
+	/* min-width: 90vw; */
+	max-width: 95vw;
 	color: brown;
 }
 

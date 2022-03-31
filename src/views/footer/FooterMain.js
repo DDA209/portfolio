@@ -3,17 +3,52 @@ import './css/footerMain.css';
 
 class FooterMain extends Component {
 	socials = [
-		{ name: 'LinkedIn', link: '', icon: '/images/icons/icon-linkedin.svg' },
-		{ name: 'GitHub', link: '', icon: '/images/icons/icon-github.svg' },
+		{
+			name: 'LinkedIn',
+			link: 'https://www.linkedin.com/in/didier-pascarel/',
+			icon: '/images/icons/icon-linkedin.svg',
+		},
+		{
+			name: 'GitHub',
+			link: 'https://github.com/DDA209',
+			icon: '/images/icons/icon-github.svg',
+		},
 	];
 	contacts = [
-		{ type: '', content: '', icon: '/images/icons/icon-mail.svg' },
+		{
+			type: 'mail',
+			content: 'didier.pascarel1@gmail.com',
+			icon: '/images/icons/icon-email.svg',
+		},
 		// {type:"Téléphone", content:"+33(0)6........", icon:"/images/icons/icon-phone.svg"},
 	];
 	render() {
 		return (
 			<footer id="footer">
-				<div id="contact"></div>
+				{this.contacts.length > 0 && (
+					<div id="contact">
+						{' '}
+						{this.contacts.map((contact, key) => {
+							return (
+								<div className="contact">
+									<a
+										href={`mailto:${contact.content}`}
+										key={key}
+										// target="_blank"
+										// rel="noreferrer"
+									>
+										<img
+											className="footer-icon"
+											src={contact.icon}
+											alt="icone de mail"
+										/>
+									</a>
+									<h2>didier.pascarel1@gmail.com</h2>
+								</div>
+							);
+						})}
+					</div>
+				)}
 
 				{this.socials.length > 0 && (
 					<div className="socials">
@@ -21,9 +56,13 @@ class FooterMain extends Component {
 							{this.socials.map((social, key) => {
 								return (
 									<li key={key}>
-										<a href={social.link}>
+										<a
+											href={social.link}
+											target="_blank"
+											rel="noreferrer"
+										>
 											<img
-												className="footerIcon"
+												className="footer-icon"
 												src={social.icon}
 												alt={`Icon de ${social.link}`}
 											/>

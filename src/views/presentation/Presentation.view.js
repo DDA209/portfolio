@@ -36,22 +36,22 @@ class PresentationView extends Component {
 							un professionnel aigusé et adaptable.
 						</p>
 						<p>
-							Auprès de clients variées grands comptes{' '}
+							C'est auprès de clients, variées, grands comptes{' '}
 							<em>
 								(Société Générale, PriceWaterhouseCoopers,
 								Novartis...)
 							</em>
-							, je me suis exercé à nombre de métiers des systèmes
-							de l'information{' '}
+							, que je me suis affûté et exercé à nombre de
+							métiers des systèmes de l'information{' '}
 							<em>
 								(Technicien systèmes et réseaux, intégrateur
 								d'applicaions, analyste dévelopeur...)
 							</em>
-							, dans de nombreux secteurs d'activité et auprès de
-							publics parfois très éloignés{' '}
+							, dans de nombreux secteurs d'activité et auprès
+							d'une grande diversité de publics{' '}
 							<em>
-								(VIP, personnel administratif, ouvriers, chefs
-								de projet...)
+								(VIP, personnel administratif, ouvri-ères-ers,
+								chef-fes-s de projet...)
 							</em>
 						</p>
 					</div>
