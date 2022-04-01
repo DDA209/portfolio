@@ -268,7 +268,7 @@ class ExperiencesView extends Component {
 				},
 				{
 					jobTitle: {
-						full: 'Analyste développeurt dans une TMA',
+						full: 'Analyste développeur dans une TMA',
 						short: 'Analyste développeur',
 					},
 					workingContract: 'CDI',
@@ -296,7 +296,7 @@ class ExperiencesView extends Component {
 					clients: [
 						{
 							name: 'Schmidt Groupe',
-							activityArea: 'Industrie, meuble sur mesure',
+							activityArea: 'Industrie, meuble',
 							logo:
 								this.props.path +
 								'/images/companies/logo-schmidt.png',
