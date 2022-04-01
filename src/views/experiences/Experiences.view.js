@@ -268,8 +268,8 @@ class ExperiencesView extends Component {
 				},
 				{
 					jobTitle: {
-						full: 'Analyste et homologateur monétique',
-						short: 'Homologateur monétique',
+						full: 'Analyste développeurt dans une TMA',
+						short: 'Analyste développeur',
 					},
 					workingContract: 'CDI',
 					typeOfWorkLocation: 'Clientèle',
@@ -291,12 +291,12 @@ class ExperiencesView extends Component {
 							country: 'France',
 						},
 					],
-					dateStart: '01/01/2019',
-					dateEnd: '12/31/2019',
+					dateStart: '03/01/2014',
+					dateEnd: '12/31/2018',
 					clients: [
 						{
 							name: 'Schmidt Groupe',
-							activityArea: 'Bancaire, monétique',
+							activityArea: 'Industrie, meuble sur mesure',
 							logo:
 								this.props.path +
 								'/images/companies/logo-schmidt.png',
