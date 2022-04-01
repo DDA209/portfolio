@@ -61,14 +61,6 @@ nav.hide li a {
 	font-size: 0.85rem;
 }
 
-/*
-320px — 480px: Mobile devices.
-481px — 768px: iPads, Tablets.
-769px — 1024px: Small screens, laptops. --------- burgering
-1025px — 1200px: Desktops, large screens.
-1201px and more — Extra large screens, TV.
-*/
-
 nav ul > li {
 	padding: 0.4rem 0.82rem;
 	/* border: 2px solid #ffffffc0;
@@ -114,7 +106,7 @@ nav ul > li {
 	}
 }
 
-@media screen and (max-width: 384px) {
+@media screen and (max-width: 480px) {
 	nav img.nameFull {
 		display: none;
 	}

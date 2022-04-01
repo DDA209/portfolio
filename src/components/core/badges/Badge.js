@@ -67,22 +67,8 @@ const colors = {
 	},
 };
 
-/**
- * **Standard badge component**
- *
- * \<BadgeDefault type="type"\>content\<\/BadgeDefault\>
- *
- * ***Usable types:***
- * - skillTechnic - bg color = soft blue, text color = black
- * - skillSoft - bg color = soft green, text color = black
- * - skillSocial - bg color = soft brun, text color = black
- */
 class BadgeDefault extends Component {
 	render() {
-		// console.log(
-		// 	'components/core/badges/Badges.js #render this.props.group >>>',
-		// 	this.props.group
-		// );
 		return (
 			<>
 				<Badge

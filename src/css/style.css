@@ -39,16 +39,12 @@ h4,
 h5,
 h6 {
 	display: block;
-	/* font-family: cinzel, Times, serif; */
 }
 
 h2,
 h3 {
 	margin: 2rem 0 1.5rem 0;
 }
-
-/* h6 {
-} */
 
 section {
 	margin: 10rem 15vw;
@@ -142,15 +138,7 @@ section > h2 {
 	text-align: center;
 }
 
-/* section:nth-child(even) {
-	background-color: #9cb8c2;
-}
-
-section:nth-child(odd) {
-	background-color: #ffffffff;
-} */
-
-/* Temporary grid*/
+/* Grid*/
 .height-auto {
 	height: auto;
 }
@@ -239,13 +227,21 @@ section:nth-child(odd) {
 	width: calc(100% - (2 * 0.35rem));
 }
 
+/*
+320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops. --------- burgering
+1025px — 1200px: Desktops, large screens.
+1201px and more — Extra large screens, TV.
+*/
+
 @media screen and (max-width: 768px) {
 	section {
 		margin: 5rem 3vw;
 		padding: 4rem 5vw;
 	}
 }
-@media screen and (max-width: 384px) {
+@media screen and (max-width: 480px) {
 	section {
 		margin: 5rem 0;
 		padding: 1rem 0rem;

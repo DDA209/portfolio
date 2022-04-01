@@ -1,28 +1,14 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-// import links from '../../../common/links';
 import './css/navBar.css';
 import './css/navBarMain.css';
 
 class NavBarMain extends Component {
-	// getNavList() {
-	// 	let navList = [];
-	// 	let position = 0;
-	// 	links.forEach((link) => {});
-	// 	return navList;
-	// }
-
 	render() {
-		// console.log(' this.state.navModify >>>', this.props.navModify);
-		console.log(
-			'components/core/navs/NavBarMain.js #render this.props.path >>>',
-			this.props.path
-		);
 		return (
 			<>
 				<nav className={'main' + this.props.navModify}>
 					<Link to="/" href="#home">
-						{/* <h1>Didier PASCAREL</h1> */}
 						<img
 							className="nameFull"
 							src={

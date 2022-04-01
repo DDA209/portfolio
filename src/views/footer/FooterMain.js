@@ -20,7 +20,6 @@ class FooterMain extends Component {
 			content: 'didier.pascarel1@gmail.com',
 			icon: this.props.path + '/images/icons/icon-email.svg',
 		},
-		// {type:"Téléphone", content:"+33(0)6........", icon:"/images/icons/icon-phone.svg"},
 	];
 	render() {
 		return (
@@ -30,13 +29,8 @@ class FooterMain extends Component {
 						{' '}
 						{this.contacts.map((contact, key) => {
 							return (
-								<div className="contact">
-									<a
-										href={`mailto:${contact.content}`}
-										key={key}
-										// target="_blank"
-										// rel="noreferrer"
-									>
+								<div className="contact" key={key}>
+									<a href={`mailto:${contact.content}`}>
 										<img
 											className="footer-icon"
 											src={contact.icon}

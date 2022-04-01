@@ -21,7 +21,6 @@
 
 .card-front,
 .card-back {
-	/* background-color: #f0f8ffff; */
 	background-color: #ffffffff;
 	margin-left: -0.35rem;
 	margin-right: -0.35rem;
@@ -35,11 +34,6 @@
 /******************/
 /**  Card style  **/
 /******************/
-/* .card-experience {
-	margin-left: 0.35rem;
-	margin-right: 0.35rem;
-} */
-
 .card-experience .container-up,
 .card-experience .container-down {
 	background-color: #ffffffff;
@@ -53,14 +47,6 @@
 .card-experience .container-down {
 	box-shadow: 0.1rem 0.1rem 0.4rem -0.2rem #00000040 inset;
 }
-
-/* .card-experience p,
-.card-experience ul {
-	padding: 0.1rem 0;
-	margin: 0;
-	text-align: justify;
-} */
-
 .card-experience .hr {
 	margin-top: 0.8rem;
 }
@@ -101,11 +87,6 @@ h6.client,
 .company-name > h6 {
 	font-weight: 600;
 }
-/* article ul,
-article p,
-article {
-	text-align: justify;
-} */
 
 /**************************/
 /**  Internal structure  **/
@@ -125,8 +106,6 @@ article {
 .skills {
 	display: flex;
 	flex-wrap: wrap;
-	/* flex-flow: column wrap; */
-	/* justify-content: space-between; */
 }
 /***************************/
 /**  Appearance mechanic  **/
@@ -159,19 +138,7 @@ article {
 		-0.2rem -0.2rem 0.2rem #00000080 inset;
 	transform: scale(1.05) translateY(-0.85rem);
 }
-/* 
-.card-back {
-	opacity: 1;
-}
 
-.card-front {
-	opacity: 0;
-}
-
-.card-main {
-	box-shadow: 0.1rem 0.1rem 1rem #00000040;
-	transform: scale(1.05);
-} */
 @media screen and (max-width: 768px) {
 	.card-main {
 		margin: 1rem -1rem;

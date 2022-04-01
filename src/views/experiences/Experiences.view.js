@@ -108,8 +108,7 @@ class ExperiencesView extends Component {
 					company: {
 						name: 'mes Producteurs mes Cuisiniers',
 						activityArea: 'Editeur Web',
-						logo:
-							this.props.path + '/images/companies/logo-mpmc.png',
+						logo: this.path + '/images/companies/logo-mpmc.png',
 					},
 					locations: [
 						{

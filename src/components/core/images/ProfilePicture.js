@@ -3,10 +3,6 @@ import './css/images.css';
 
 class ProfilePicture extends Component {
 	render() {
-		// console.log(
-		// 	'components/core/images/ProfilePicture.js #render this.props.moveProfilePicture >>>',
-		// 	this.props.moveProfilePicture
-		// );
 		return (
 			<>
 				<img

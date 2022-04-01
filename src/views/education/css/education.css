@@ -1,7 +1,6 @@
 #education img.logo {
 	max-height: 2.5rem;
 	max-width: 7.5rem;
-	/* display: inline-block; */
 	float: right;
 }
 
@@ -11,8 +10,10 @@
 	min-width: 10rem;
 	margin: 0 auto;
 	display: flex;
-	/* border: 2px #4488a340 solid; */
 	cursor: pointer;
+	padding: 0.2rem;
+	border: solid 3px #4488a340;
+	border-radius: calc(0.2rem + 3px);
 }
 
 #education h3.title {
@@ -23,10 +24,6 @@
 #education h3.school {
 	margin: 0 !important;
 }
-
-/* #education h3.school {
-	display: inline-block;
-} */
 
 #education article:not(:last-child) {
 	margin-bottom: 2rem;

@@ -310,8 +310,6 @@ class Education extends Component {
 	};
 
 	renderGraduation(content) {
-		console.log(content);
-
 		return (
 			<>
 				{content.type === 'image' && (
@@ -326,10 +324,6 @@ class Education extends Component {
 	}
 
 	render() {
-		// console.log(
-		// 	'views/education/Education.js #render this.state.modalStatus >>>',
-		// 	this.state.modalStatus
-		// );
 		return (
 			<>
 				<Modal

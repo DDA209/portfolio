@@ -82,9 +82,10 @@ class PresentationView extends Component {
 				</div>
 				<h2>Nous avons travaillé ensemble</h2>
 				<div className="companies">
-					{this.companiesLogos.map((companieLogo) => {
+					{this.companiesLogos.map((companieLogo, key) => {
 						return (
 							<img
+								key={key}
 								className="companie-logo"
 								src={`${this.props.path}/images/companies/${companieLogo}`}
 								alt="logo"
